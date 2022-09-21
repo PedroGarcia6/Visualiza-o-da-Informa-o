@@ -1,0 +1,109 @@
+body {
+	background-color: black;
+}
+
+h1 {
+	color: gold;
+}
+
+h2 {
+	color: orange;
+}
+
+.x1 {
+  fill: red;
+  fill-opacity: 1;
+  animation-duration: 10s;
+  animation-name: pulse1;
+  animation-iteration-count: infinite;
+}
+
+.x2 {
+  fill: blue;
+  fill-opacity: 1;
+  animation-duration: 10s;
+  animation-name: pulse2;
+  animation-iteration-count: infinite;
+}
+
+.x3 {
+  fill: green;
+  fill-opacity: 1;
+  animation-duration: 10s;
+  animation-name: pulse3;
+  animation-iteration-count: infinite;
+}
+
+.x4 {
+  fill: yellow;
+  fill-opacity: 1;
+  animation-duration: 10s;
+  animation-name: pulse4;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulse1 {
+  0% {
+    fill-opacity: 0;
+  }
+  12.5% {
+    fill-opacity: 1;
+  }
+  25% {
+    fill-opacity: 0;
+  }
+  100% {
+    fill-opacity: 0;
+  }
+}
+
+@keyframes pulse2 {
+  0% {
+    fill-opacity: 0;
+  }
+  25% {
+    fill-opacity: 0;
+  }
+  37.5% {
+    fill-opacity: 1;
+  }
+  50% {
+    fill-opacity: 0;
+  }
+  100% {
+    fill-opacity: 0;
+  }
+}
+
+@keyframes pulse3 {
+  0% {
+    fill-opacity: 0;
+  }
+  50% {
+    fill-opacity: 0;
+  }
+  62.5% {
+    fill-opacity: 1;
+  }
+  75% {
+    fill-opacity: 0;
+  }
+  100% {
+    fill-opacity: 0;
+  }
+}
+
+@keyframes pulse4 {
+  0% {
+    fill-opacity: 0;
+  }
+  75% {
+    fill-opacity: 0;
+  }
+  87.5% {
+    fill-opacity: 1;
+  }
+  100% {
+    fill-opacity: 0;
+  }
+}
