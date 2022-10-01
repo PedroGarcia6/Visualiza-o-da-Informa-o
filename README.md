@@ -3,6 +3,8 @@
 
 **Quarteto de Anscombe**
 
-Primeira versão (com pulsos): https://htmlpreview.github.io/?https://github.com/PedroGarcia6/Visualizacao-da-Informacao/blob/main/quart.html
+Primeira versão (pulsos): https://htmlpreview.github.io/?https://github.com/PedroGarcia6/Visualizacao-da-Informacao/blob/main/quart.html
 
-Segunda versão (com deslocamentos): https://htmlpreview.github.io/?https://github.com/PedroGarcia6/Visualizacao-da-Informacao/blob/main/quart2.html
+Segunda versão (deslocamentos): https://htmlpreview.github.io/?https://github.com/PedroGarcia6/Visualizacao-da-Informacao/blob/main/quart2.html
+
+Terceira versão (botões de pulsos): https://htmlpreview.github.io/?https://github.com/PedroGarcia6/Visualizacao-da-Informacao/blob/main/quart4.html
