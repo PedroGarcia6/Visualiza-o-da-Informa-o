@@ -84,7 +84,7 @@ h1 {
 	margin-right: auto;
 	width: 2030px;
 	height: 1430px;
-	border: 5px solid rgba(200,200,200,0.0);
+	border: 1px solid rgba(200,200,200,0.0);
 	background: rgba(200,200,200,0.0);
 }
 
@@ -94,12 +94,11 @@ h1 {
 	margin-right: auto;
 	width: 2000px;
 	height: 1390px;
-	border: 5px solid grey;
+	border: 1px solid grey;
 	background: black;
 }
 
 #conteudo-left {
-	font-size: 28px;
 	width: 10px;
 	height: 1400px;
 	float: left;
@@ -115,7 +114,6 @@ h1 {
 }
 
 #footer {
-	font-size: 28px;
 	width: 2000px;
 	height: 30px;
 	margin-left: auto;
@@ -126,7 +124,7 @@ h1 {
 .eixoy{
 	color: grey;
 	float: right;
-	font-size: 28px;
+	font-size: 29px;
 	width: 10px;
 	height: 1400px;
 	display: flex;
@@ -136,7 +134,7 @@ h1 {
 
 .eixox{
 	color: grey;
-	font-size: 28px;
+	font-size: 29px;
 	width: 2030px;
 	height: 290px;
 	display: flex;
@@ -257,89 +255,89 @@ h1 {
 }
 
 .c1{
+    cursor: pointer;
 	position: relative;
     border-radius: 50%;
-	opacity: 0.0;
 	width: 20px;
 	height: 20px;
 }
 
 .c2{
+    cursor: pointer;
 	position: relative;
     border-radius: 50%;
-	opacity: 0.0;
 	width: 20px;
 	height: 20px;
 }
 
 .c3{
+    cursor: pointer;
 	position: relative;
     border-radius: 50%;
-	opacity: 0.0;
 	width: 20px;
 	height: 20px;
 }
 
 .c4{
+    cursor: pointer;
 	position: relative;
     border-radius: 50%;
-	opacity: 0.0;
 	width: 20px;
 	height: 20px;
 }
 
 .c5{
+    cursor: pointer;
 	position: relative;
     border-radius: 50%;
-	opacity: 0.0;
 	width: 20px;
 	height: 20px;
 }
 
 .c6{
+    cursor: pointer;
 	position: relative;
     border-radius: 50%;
-	opacity: 0.0;
 	width: 20px;
 	height: 20px;
 }
 
 .c7{
+    cursor: pointer;
 	position: relative;
     border-radius: 50%;
-	opacity: 0.0;
 	width: 20px;
 	height: 20px;
 }
 
 .c8{
+    cursor: pointer;
 	position: relative;
     border-radius: 50%;
-	opacity: 0.0;
 	width: 20px;
 	height: 20px;
 }
 
 .c9{
+    cursor: pointer;
 	position: relative;
     border-radius: 50%;
-	opacity: 0.0;
 	width: 20px;
 	height: 20px;
 }
 
 .c10{
+    cursor: pointer;
 	position: relative;
     border-radius: 50%;
-	opacity: 0.0;
 	width: 20px;
 	height: 20px;
 }
 
 .c11{
+    cursor: pointer;
 	position: relative;
     border-radius: 50%;
-	opacity: 0.0;
 	width: 20px;
 	height: 20px;
 }
@@ -348,19 +346,17 @@ h1 {
   0% {
 	background: black;
   }
-  1% {
+  1% { 	background: black; 	background: black;
 	left: 990px;
 	top: 586px;
   }
   2%{
 	background: red;
-	opacity: 1.0;
 	left: 990px;
 	top: 586px;
   }
   100%{
 	background: red;
-	opacity: 1.0;	
 	left: 990px;
 	top: 586px;
   }
@@ -370,19 +366,17 @@ h1 {
   0% {
 	background: black;
   }
-   1% {
+   1% { 	background: black; 	background: black;
 	left: 990px;
 	top: 476px;
   }
   2%{
 	background: blue;
-	opacity: 1.0;	
 	left: 990px;
 	top: 476px;
   }
   100%{
 	background: blue;
-	opacity: 1.0;	
 	left: 990px;
 	top: 476px;
   }
@@ -392,19 +386,17 @@ h1 {
   0% {
 	background: black;
   }
-   1% {
+   1% { 	background: black; 	background: black;
 	left: 990px;
 	top: 644px;
   }
   2%{
 	background: green;
-	opacity: 1.0;	
 	left: 990px;
 	top: 644px;
   }
   100%{
 	background: green;
-	opacity: 1.0;	
 	left: 990px;
 	top: 644px;
   }
@@ -414,19 +406,17 @@ h1 {
   0% {
 	background: black;
   }
-   1% {
+   1% { 	background: black; 	background: black;
 	left: 790px;
 	top: 732px;
   }
   2%{
 	background: yellow;
-	opacity: 1.0;	
 	left: 790px;
 	top: 732px;
   }
   100%{
 	background: yellow;
-	opacity: 1.0;	
 	left: 790px;
 	top: 732px;
   }
@@ -436,19 +426,17 @@ h1 {
   0% {
 	background: black;
   }
-  1% {
+  1% { 	background: black; 	background: black;
 	left: 790px;
 	top: 675px;
   }
   2%{
 	background: red;
-	opacity: 1.0;
 	left: 790px;
 	top: 675px;
   }
   100%{
 	background: red;
-	opacity: 1.0;	
 	left: 790px;
 	top: 675px;
   }
@@ -458,19 +446,17 @@ h1 {
   0% {
 	background: black;
   }
-   1% {
+   1% { 	background: black; 	background: black;
 	left: 790px;
 	top: 556px;
   }
   2%{
 	background: blue;
-	opacity: 1.0;	
 	left: 790px;
 	top: 556px;
   }
   100%{
 	background: blue;
-	opacity: 1.0;	
 	left: 790px;
 	top: 556px;
   }
@@ -480,19 +466,17 @@ h1 {
   0% {
 	background: black;
   }
-   1% {
+   1% { 	background: black; 	background: black;
 	left: 790px;
 	top: 693px;
   }
   2%{
 	background: green;
-	opacity: 1.0;	
 	left: 790px;
 	top: 693px;
   }
   100%{
 	background: green;
-	opacity: 1.0;	
 	left: 790px;
 	top: 693px;
   }
@@ -502,19 +486,17 @@ h1 {
   0% {
 	background: black;
   }
-   1% {
+   1% { 	background: black; 	background: black;
 	left: 790px;
 	top: 794px;
   }
   2%{
 	background: yellow;
-	opacity: 1.0;	
 	left: 790px;
 	top: 794px;
   }
   100%{
 	background: yellow;
-	opacity: 1.0;	
 	left: 790px;
 	top: 794px;
   }
@@ -524,19 +506,17 @@ h1 {
   0% {
 	background: black;
   }
-  1% {
+  1% { 	background: black;
 	left: 1290px;
 	top: 592px;
   }
   2%{
 	background: red;
-	opacity: 1.0;
 	left: 1290px;
 	top: 592px;
   }
   100%{
 	background: red;
-	opacity: 1.0;	
 	left: 1290px;
 	top: 592px;
   }
@@ -546,19 +526,17 @@ h1 {
   0% {
 	background: black;
   }
-   1% {
+   1% { 	background: black;
 	left: 1290px;
 	top: 476px;
   }
   2%{
 	background: blue;
-	opacity: 1.0;	
 	left: 1290px;
 	top: 476px;
   }
   100%{
 	background: blue;
-	opacity: 1.0;	
 	left: 1290px;
 	top: 476px;
   }
@@ -568,19 +546,17 @@ h1 {
   0% {
 	background: black;
   }
-   1% {
+   1% { 	background: black;
 	left: 1290px;
 	top: 76px;
   }
   2%{
 	background: green;
-	opacity: 1.0;	
 	left: 1290px;
 	top: 76px;
   }
   100%{
 	background: green;
-	opacity: 1.0;	
 	left: 1290px;
 	top: 76px;
   }
@@ -590,19 +566,17 @@ h1 {
   0% {
 	background: black;
   }
-   1% {
+   1% { 	background: black;
 	left: 790px;
 	top: 579px;
   }
   2%{
 	background: yellow;
-	opacity: 1.0;	
 	left: 790px;
 	top: 579px;
   }
   100%{
 	background: yellow;
-	opacity: 1.0;	
 	left: 790px;
 	top: 579px;
   }
@@ -612,19 +586,17 @@ h1 {
   0% {
 	background: black;
   }
-  1% {
+  1% { 	background: black;
 	left: 890px;
 	top: 449px;
   }
   2%{
 	background: red;
-	opacity: 1.0;
 	left: 890px;
 	top: 449px;
   }
   100%{
 	background: red;
-	opacity: 1.0;	
 	left: 890px;
 	top: 449px;
   }
@@ -634,19 +606,17 @@ h1 {
   0% {
 	background: black;
   }
-   1% {
+   1% { 	background: black;
 	left: 890px;
 	top: 453px;
   }
   2%{
 	background: blue;
-	opacity: 1.0;	
 	left: 890px;
 	top: 453px;
   }
   100%{
 	background: blue;
-	opacity: 1.0;	
 	left: 890px;
 	top: 453px;
   }
@@ -656,19 +626,17 @@ h1 {
   0% {
 	background: black;
   }
-   1% {
+   1% { 	background: black;
 	left: 890px;
 	top: 619px;
   }
   2%{
 	background: green;
-	opacity: 1.0;	
 	left: 890px;
 	top: 619px;
   }
   100%{
 	background: green;
-	opacity: 1.0;	
 	left: 890px;
 	top: 619px;
   }
@@ -678,19 +646,17 @@ h1 {
   0% {
 	background: black;
   }
-   1% {
+   1% { 	background: black;
 	left: 790px;
 	top: 446px;
   }
   2%{
 	background: yellow;
-	opacity: 1.0;	
 	left: 790px;
 	top: 446px;
   }
   100%{
 	background: yellow;
-	opacity: 1.0;	
 	left: 790px;
 	top: 446px;
   }
@@ -700,19 +666,17 @@ h1 {
   0% {
 	background: black;
   }
-  1% {
+  1% { 	background: black;
 	left: 1090px;
 	top: 477px;
   }
   2%{
 	background: red;
-	opacity: 1.0;
 	left: 1090px;
 	top: 477px;
   }
   100%{
 	background: red;
-	opacity: 1.0;	
 	left: 1090px;
 	top: 477px;
   }
@@ -722,19 +686,17 @@ h1 {
   0% {
 	background: black;
   }
-   1% {
+   1% { 	background: black;
 	left: 1090px;
 	top: 384px;
   }
   2%{
 	background: blue;
-	opacity: 1.0;	
 	left: 1090px;
 	top: 384px;
   }
   100%{
 	background: blue;
-	opacity: 1.0;	
 	left: 1090px;
 	top: 384px;
   }
@@ -744,19 +706,17 @@ h1 {
   0% {
 	background: black;
   }
-   1% {
+   1% { 	background: black;
 	left: 1090px;
 	top: 529px;
   }
   2%{
 	background: green;
-	opacity: 1.0;	
 	left: 1090px;
 	top: 529px;
   }
   100%{
 	background: green;
-	opacity: 1.0;	
 	left: 1090px;
 	top: 529px;
   }
@@ -766,19 +726,17 @@ h1 {
   0% {
 	background: black;
   }
-   1% {
+   1% { 	background: black;
 	left: 790px;
 	top: 463px;
   }
   2%{
 	background: yellow;
-	opacity: 1.0;	
 	left: 790px;
 	top: 463px;
   }
   100%{
 	background: yellow;
-	opacity: 1.0;	
 	left: 790px;
 	top: 463px;
   }
@@ -788,19 +746,17 @@ h1 {
   0% {
 	background: black;
   }
-  1% {
+  1% { 	background: black;
 	left: 1390px;
 	top: 294px;
   }
   2%{
 	background: red;
-	opacity: 1.0;
 	left: 1390px;
 	top: 294px;
   }
   100%{
 	background: red;
-	opacity: 1.0;	
 	left: 1390px;
 	top: 294px;
   }
@@ -810,19 +766,17 @@ h1 {
   0% {
 	background: black;
   }
-   1% {
+   1% { 	background: black;
 	left: 1390px;
 	top: 480px;
   }
   2%{
 	background: blue;
-	opacity: 1.0;	
 	left: 1390px;
 	top: 480px;
   }
   100%{
 	background: blue;
-	opacity: 1.0;	
 	left: 1390px;
 	top: 480px;
   }
@@ -832,19 +786,17 @@ h1 {
   0% {
 	background: black;
   }
-   1% {
+   1% { 	background: black;
 	left: 1390px;
 	top: 406px;
   }
   2%{
 	background: green;
-	opacity: 1.0;	
 	left: 1390px;
 	top: 406px;
   }
   100%{
 	background: green;
-	opacity: 1.0;	
 	left: 1390px;
 	top: 406px;
   }
@@ -854,19 +806,17 @@ h1 {
   0% {
 	background: black;
   }
-   1% {
+   1% { 	background: black;
 	left: 790px;
 	top: 586px;
   }
   2%{
 	background: yellow;
-	opacity: 1.0;	
 	left: 790px;
 	top: 586px;
   }
   100%{
 	background: yellow;
-	opacity: 1.0;	
 	left: 790px;
 	top: 586px;
   }
@@ -876,19 +826,17 @@ h1 {
   0% {
 	background: black;
   }
-  1% {
+  1% { 	background: black;
 	left: 590px;
 	top: 546px;
   }
   2%{
 	background: red;
-	opacity: 1.0;
 	left: 590px;
 	top: 546px;
   }
   100%{
 	background: red;
-	opacity: 1.0;	
 	left: 590px;
 	top: 546px;
   }
@@ -898,19 +846,17 @@ h1 {
   0% {
 	background: black;
   }
-   1% {
+   1% { 	background: black;
 	left: 590px;
 	top: 657px;
   }
   2%{
 	background: blue;
-	opacity: 1.0;	
 	left: 590px;
 	top: 657px;
   }
   100%{
 	background: blue;
-	opacity: 1.0;	
 	left: 590px;
 	top: 657px;
   }
@@ -920,19 +866,17 @@ h1 {
   0% {
 	background: black;
   }
-   1% {
+   1% { 	background: black;
 	left: 590px;
 	top: 662px;
   }
   2%{
 	background: green;
-	opacity: 1.0;	
 	left: 590px;
 	top: 662px;
   }
   100%{
 	background: green;
-	opacity: 1.0;	
 	left: 590px;
 	top: 662px;
   }
@@ -942,19 +886,17 @@ h1 {
   0% {
 	background: black;
   }
-   1% {
+   1% { 	background: black;
 	left: 790px;
 	top: 745px;
   }
   2%{
 	background: yellow;
-	opacity: 1.0;	
 	left: 790px;
 	top: 745px;
   }
   100%{
 	background: yellow;
-	opacity: 1.0;	
 	left: 790px;
 	top: 745px;
   }
@@ -964,19 +906,17 @@ h1 {
   0% {
 	background: black;
   }
-  1% {
+  1% { 	background: black;
 	left: 390px;
 	top: 824px;
   }
   2%{
 	background: red;
-	opacity: 1.0;
 	left: 390px;
 	top: 824px;
   }
   100%{
 	background: red;
-	opacity: 1.0;	
 	left: 390px;
 	top: 824px;
   }
@@ -986,19 +926,17 @@ h1 {
   0% {
 	background: black;
   }
-   1% {
+   1% { 	background: black;
 	left: 390px;
 	top: 940px;
   }
   2%{
 	background: blue;
-	opacity: 1.0;	
 	left: 390px;
 	top: 940px;
   }
   100%{
 	background: blue;
-	opacity: 1.0;	
 	left: 390px;
 	top: 940px;
   }
@@ -1008,19 +946,17 @@ h1 {
   0% {
 	background: black;
   }
-   1% {
+   1% { 	background: black;
 	left: 390px;
 	top: 711px;
   }
   2%{
 	background: green;
-	opacity: 1.0;	
 	left: 390px;
 	top: 711px;
   }
   100%{
 	background: green;
-	opacity: 1.0;	
 	left: 390px;
 	top: 711px;
   }
@@ -1030,19 +966,17 @@ h1 {
   0% {
 	background: black;
   }
-   1% {
+   1% { 	background: black;
 	left: 1890px;
 	top: 0px;
   }
   2%{
 	background: yellow;
-	opacity: 1.0;	
 	left: 1890px;
 	top: 0px;
   }
   100%{
 	background: yellow;
-	opacity: 1.0;	
 	left: 1890px;
 	top: 0px;
   }
@@ -1052,19 +986,17 @@ h1 {
   0% {
 	background: black;
   }
-  1% {
+  1% { 	background: black;
 	left: 1190px;
 	top: 146px;
   }
   2%{
 	background: red;
-	opacity: 1.0;
 	left: 1190px;
 	top: 146px;
   }
   100%{
 	background: red;
-	opacity: 1.0;	
 	left: 1190px;
 	top: 146px;
   }
@@ -1074,19 +1006,17 @@ h1 {
   0% {
 	background: black;
   }
-   1% {
+   1% { 	background: black;
 	left: 1190px;
 	top: 317px;
   }
   2%{
 	background: blue;
-	opacity: 1.0;	
 	left: 1190px;
 	top: 317px;
   }
   100%{
 	background: blue;
-	opacity: 1.0;	
 	left: 1190px;
 	top: 317px;
   }
@@ -1096,19 +1026,17 @@ h1 {
   0% {
 	background: black;
   }
-   1% {
+   1% { 	background: black;
 	left: 1190px;
 	top: 415px;
   }
   2%{
 	background: green;
-	opacity: 1.0;	
 	left: 1190px;
 	top: 415px;
   }
   100%{
 	background: green;
-	opacity: 1.0;	
 	left: 1190px;
 	top: 415px;
   }
@@ -1118,19 +1046,17 @@ h1 {
   0% {
 	background: black;
   }
-   1% {
+   1% { 	background: black;
 	left: 790px;
 	top: 674px;
   }
   2%{
 	background: yellow;
-	opacity: 1.0;	
 	left: 790px;
 	top: 674px;
   }
   100%{
 	background: yellow;
-	opacity: 1.0;	
 	left: 790px;
 	top: 674px;
   }
@@ -1140,19 +1066,17 @@ h1 {
   0% {
 	background: black;
   }
-  1% {
+  1% { 	background: black;
 	left: 690px;
 	top: 728px;
   }
   2%{
 	background: red;
-	opacity: 1.0;
 	left: 690px;
 	top: 728px;
   }
   100%{
 	background: red;
-	opacity: 1.0;	
 	left: 690px;
 	top: 728px;
   }
@@ -1162,19 +1086,17 @@ h1 {
   0% {
 	background: black;
   }
-   1% {
+   1% { 	background: black;
 	left: 690px;
 	top: 484px;
   }
   2%{
 	background: blue;
-	opacity: 1.0;	
 	left: 690px;
 	top: 484px;
   }
   100%{
 	background: blue;
-	opacity: 1.0;	
 	left: 690px;
 	top: 484px;
   }
@@ -1184,19 +1106,17 @@ h1 {
   0% {
 	background: black;
   }
-   1% {
+   1% { 	background: black;
 	left: 690px;
 	top: 568px;
   }
   2%{
 	background: green;
-	opacity: 1.0;	
 	left: 690px;
 	top: 568px;
   }
   100%{
 	background: green;
-	opacity: 1.0;	
 	left: 690px;
 	top: 568px;
   }
@@ -1206,19 +1126,17 @@ h1 {
   0% {
 	background: black;
   }
-   1% {
+   1% { 	background: black;
 	left: 790px;
 	top: 419px;
   }
   2%{
-	background: yellow;
-	opacity: 1.0;	
+	background: yellow;	
 	left: 790px;
 	top: 419px;
   }
   100%{
-	background: yellow;
-	opacity: 1.0;	
+	background: yellow;	
 	left: 790px;
 	top: 419px;
   }
@@ -1228,19 +1146,17 @@ h1 {
   0% {
 	background: black;
   }
-  1% {
+  1% { 	background: black;
 	left: 490px;
 	top: 622px;
   }
   2%{
 	background: red;
-	opacity: 1.0;
 	left: 490px;
 	top: 622px;
   }
   100%{
-	background: red;
-	opacity: 1.0;	
+	background: red;	
 	left: 490px;
 	top: 622px;
   }
@@ -1250,19 +1166,17 @@ h1 {
   0% {
 	background: black;
   }
-   1% {
+   1% { 	background: black;
 	left: 490px;
 	top: 716px;
   }
   2%{
-	background: blue;
-	opacity: 1.0;	
+	background: blue;	
 	left: 490px;
 	top: 716px;
   }
   100%{
 	background: blue;
-	opacity: 1.0;	
 	left: 490px;
 	top: 716px;
   }
@@ -1272,19 +1186,17 @@ h1 {
   0% {
 	background: black;
   }
-   1% {
+   1% { 	background: black;
 	left: 490px;
 	top: 617px;
   }
   2%{
-	background: green;
-	opacity: 1.0;	
+	background: green;	
 	left: 490px;
 	top: 617px;
   }
   100%{
 	background: green;
-	opacity: 1.0;	
 	left: 490px;
 	top: 617px;
   }
@@ -1294,20 +1206,73 @@ h1 {
   0% {
 	background: black;
   }
-   1% {
+   1% { 	background: black;
 	left: 790px;
 	top: 501px;
   }
   2%{
 	background: yellow;
-	opacity: 1.0;	
 	left: 790px;
 	top: 501px;
   }
   100%{
 	background: yellow;
-	opacity: 1.0;	
 	left: 790px;
 	top: 501px;
   }
+}
+
+.c1:hover {
+opacity: 0.3;
+transition: 0.2s;
+}
+
+.c2:hover {
+opacity: 0.3;
+transition: 0.2s;
+}
+
+.c3:hover {
+opacity: 0.3;
+transition: 0.2s;
+}
+
+.c4:hover {
+opacity: 0.3;
+transition: 0.2s;
+}
+
+.c5:hover {
+opacity: 0.3;
+transition: 0.2s;
+}
+
+.c6:hover {
+opacity: 0.3;
+transition: 0.2s;
+}
+
+.c7:hover {
+opacity: 0.3;
+transition: 0.2s;
+}
+
+.c8:hover {
+opacity: 0.3;
+transition: 0.2s;
+}
+
+.c9:hover {
+opacity: 0.3;
+transition: 0.2s;
+}
+
+.c10:hover {
+opacity: 0.3;
+transition: 0.2s;
+}
+
+.c11:hover {
+opacity: 0.3;
+transition: 0.2s;
 }
