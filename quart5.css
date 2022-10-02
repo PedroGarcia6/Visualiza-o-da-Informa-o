@@ -8,11 +8,20 @@ h1 {
 	font-size: 80px;
 }
 
+.texto {
+	font-family: Constantia;
+	text-align: center;
+	color: darkgrey;
+	font-size: 70px;
+	margin: 0px;
+}
+
 .botoes{
 	text-align: center;
 }
 
 #botao_1 {
+	font-family: Comic Sans MS;
 	font-size: 60px;
 	color: red;
 	background-color: black;
@@ -23,6 +32,7 @@ h1 {
 }
 
 #botao_2 {
+	font-family: Comic Sans MS;
 	font-size: 60px;
 	color: blue;
 	background-color: black;
@@ -33,6 +43,7 @@ h1 {
 }
 
 #botao_3 {
+	font-family: Comic Sans MS;
 	font-size: 60px;
 	color: green;
 	background-color: black;
@@ -43,6 +54,7 @@ h1 {
 }
 
 #botao_4 {
+	font-family: Comic Sans MS;
 	font-size: 60px;
 	color: yellow;
 	background-color: black;
