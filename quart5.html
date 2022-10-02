@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Quarteto 4</title>
+		<meta charset="UTF-8">
+		<link href="quart5.css" rel="stylesheet">
+		<link rel="sortcut icon" href="4.png">
+	</head>
+	
+	<body>
+
+	<p><h1>Quarteto de Anscombe</h1></p>
+	
+	<p class="texto">O Quarteto de Anscombe são quatro conjuntos de dados que têm estatísticas descritivas quase idênticas,</p>
+	
+	<p class="texto">mas distribuições muito diferentes e aparências muito distintas quando exibidos graficamente.</p>
+	
+	<h1></h1>
+	
+		<div class="botoes">
+		<button id="botao_1">Conjunto 1</button>
+		<button id="botao_2">Conjunto 2</button>
+		<button id="botao_3">Conjunto 3</button>
+		<button id="botao_4">Conjunto 4</button>
+		</div>
+		
+	<h1></h1>
+ 
+	<script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+	
+	<div class="tela">
+
+
+	<div id="conteudo-left">
+		<div class="eixoy">
+		<div class="y0">0</div>	
+		<div class="y1">1</div>
+		<div class="y2">2</div>
+		<div class="y3">3</div>
+		<div class="y4">4</div>
+		<div class="y5">5</div>
+		<div class="y6">6</div>
+		<div class="y7">7</div>
+		<div class="y8">8</div>
+		<div class="y9">9</div>
+		<div class="y10">10</div>
+		<div class="y11">11</div>
+		<div class="y12">12</div>
+		<div class="y13">13</div>
+		<div class="y14">14</div>
+	</div>
+	
+	</div>
+	<div id="conteudo-right">
+	
+	<div class="quadro">
+	
+		<div class="c1"></div>
+		<div class="c2"></div>
+		<div class="c3"></div>
+		<div class="c4"></div>
+		<div class="c5"></div>
+		<div class="c6"></div>
+		<div class="c7"></div>
+		<div class="c8"></div>
+		<div class="c9"></div>
+		<div class="c10"></div>
+		<div class="c11"></div>
+
+		<script>
+	
+	let c1 = document.querySelector(".c1");
+	let c2 = document.querySelector(".c2");
+	let c3 = document.querySelector(".c3");
+	let c4 = document.querySelector(".c4");
+	let c5 = document.querySelector(".c5");
+	let c6 = document.querySelector(".c6");
+	let c7 = document.querySelector(".c7");
+	let c8 = document.querySelector(".c8");
+	let c9 = document.querySelector(".c9");
+	let c10 = document.querySelector(".c10");
+	let c11 = document.querySelector(".c11");
+	
+	const conj_1 = document.getElementById("botao_1");
+	
+	conj_1.addEventListener("click", ()=> {
+		c1.style.animation = "";
+		setTimeout(() => c1.style.animation = "pulse1_c1 100s");
+		c2.style.animation = "";
+		setTimeout(() => c2.style.animation = "pulse1_c2 100s");
+		c3.style.animation = "";
+		setTimeout(() => c3.style.animation = "pulse1_c3 100s");
+		c4.style.animation = "";
+		setTimeout(() => c4.style.animation = "pulse1_c4 100s");
+		c5.style.animation = "";
+		setTimeout(() => c5.style.animation = "pulse1_c5 100s");
+		c6.style.animation = "";
+		setTimeout(() => c6.style.animation = "pulse1_c6 100s");
+		c7.style.animation = "";
+		setTimeout(() => c7.style.animation = "pulse1_c7 100s");
+		c8.style.animation = "";
+		setTimeout(() => c8.style.animation = "pulse1_c8 100s");
+		c9.style.animation = "";
+		setTimeout(() => c9.style.animation = "pulse1_c9 100s");
+		c10.style.animation = "";
+		setTimeout(() => c10.style.animation = "pulse1_c10 100s");
+		c11.style.animation = "";
+		setTimeout(() => c11.style.animation = "pulse1_c11 100s");
+	})
+	
+	const conj_2 = document.getElementById("botao_2");
+	
+	conj_2.addEventListener("click", ()=> {
+		c1.style.animation = "";
+		setTimeout(() => c1.style.animation = "pulse2_c1 100s");
+		c2.style.animation = "";
+		setTimeout(() => c2.style.animation = "pulse2_c2 100s");
+		c3.style.animation = "";
+		setTimeout(() => c3.style.animation = "pulse2_c3 100s");
+		c4.style.animation = "";
+		setTimeout(() => c4.style.animation = "pulse2_c4 100s");
+		c5.style.animation = "";
+		setTimeout(() => c5.style.animation = "pulse2_c5 100s");
+		c6.style.animation = "";
+		setTimeout(() => c6.style.animation = "pulse2_c6 100s");
+		c7.style.animation = "";
+		setTimeout(() => c7.style.animation = "pulse2_c7 100s");
+		c8.style.animation = "";
+		setTimeout(() => c8.style.animation = "pulse2_c8 100s");
+		c9.style.animation = "";
+		setTimeout(() => c9.style.animation = "pulse2_c9 100s");
+		c10.style.animation = "";
+		setTimeout(() => c10.style.animation = "pulse2_c10 100s");
+		c11.style.animation = "";
+		setTimeout(() => c11.style.animation = "pulse2_c11 100s");
+	})
+
+	const conj_3 = document.getElementById("botao_3");
+	
+	conj_3.addEventListener("click", ()=> {
+		c1.style.animation = "";
+		setTimeout(() => c1.style.animation = "pulse3_c1 100s");
+		c2.style.animation = "";
+		setTimeout(() => c2.style.animation = "pulse3_c2 100s");
+		c3.style.animation = "";
+		setTimeout(() => c3.style.animation = "pulse3_c3 100s");
+		c4.style.animation = "";
+		setTimeout(() => c4.style.animation = "pulse3_c4 100s");
+		c5.style.animation = "";
+		setTimeout(() => c5.style.animation = "pulse3_c5 100s");
+		c6.style.animation = "";
+		setTimeout(() => c6.style.animation = "pulse3_c6 100s");
+		c7.style.animation = "";
+		setTimeout(() => c7.style.animation = "pulse3_c7 100s");
+		c8.style.animation = "";
+		setTimeout(() => c8.style.animation = "pulse3_c8 100s");
+		c9.style.animation = "";
+		setTimeout(() => c9.style.animation = "pulse3_c9 100s");
+		c10.style.animation = "";
+		setTimeout(() => c10.style.animation = "pulse3_c10 100s");
+		c11.style.animation = "";
+		setTimeout(() => c11.style.animation = "pulse3_c11 100s");
+	})
+	
+	const conj_4 = document.getElementById("botao_4");
+	
+	conj_4.addEventListener("click", ()=> {
+		c1.style.animation = "";
+		setTimeout(() => c1.style.animation = "pulse4_c1 100s");
+		c2.style.animation = "";
+		setTimeout(() => c2.style.animation = "pulse4_c2 100s");
+		c3.style.animation = "";
+		setTimeout(() => c3.style.animation = "pulse4_c3 100s");
+		c4.style.animation = "";
+		setTimeout(() => c4.style.animation = "pulse4_c4 100s");
+		c5.style.animation = "";
+		setTimeout(() => c5.style.animation = "pulse4_c5 100s");
+		c6.style.animation = "";
+		setTimeout(() => c6.style.animation = "pulse4_c6 100s");
+		c7.style.animation = "";
+		setTimeout(() => c7.style.animation = "pulse4_c7 100s");
+		c8.style.animation = "";
+		setTimeout(() => c8.style.animation = "pulse4_c8 100s");
+		c9.style.animation = "";
+		setTimeout(() => c9.style.animation = "pulse4_c9 100s");
+		c10.style.animation = "";
+		setTimeout(() => c10.style.animation = "pulse4_c10 100s");
+		c11.style.animation = "";
+		setTimeout(() => c11.style.animation = "pulse4_c11 100s");
+	})
+	
+	</script>
+	</div>
+	</div>
+
+
+	<div id="footer">
+	<div class="eixox">
+		<div class="x0">0</div>	
+		<div class="x1">1</div>
+		<div class="x2">2</div>
+		<div class="x3">3</div>
+		<div class="x4">4</div>
+		<div class="x5">5</div>
+		<div class="x6">6</div>
+		<div class="x7">7</div>
+		<div class="x8">8</div>
+		<div class="x9">9</div>
+		<div class="x10">10</div>
+		<div class="x11">11</div>
+		<div class="x12">12</div>
+		<div class="x13">13</div>
+		<div class="x14">14</div>
+		<div class="x15">15</div>
+		<div class="x16">16</div>		
+		<div class="x17">17</div>
+		<div class="x18">18</div>
+		<div class="x18">19</div>
+		<div class="x18">20</div>
+	</div>	
+	</div>	
+		
+	</div>
+
+
+	</body>
+	
+</html>
