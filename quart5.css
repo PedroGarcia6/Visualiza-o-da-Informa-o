@@ -17,7 +17,13 @@ h1 {
 }
 
 .botoes{
+	margin-left: auto;
+	margin-right: auto;
+	width: 2000px;
 	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
 
 #botao_1 {
@@ -25,10 +31,12 @@ h1 {
 	font-size: 60px;
 	color: black;
 	background-color: red;
+	border-spacing: 15px;
+	border-width: 15px;
 	border-color: grey;
 	border-radius: 15%;
 	width: 400px;
-	height: 100px;
+	height: 120px;
 }
 
 #botao_2 {
@@ -36,10 +44,12 @@ h1 {
 	font-size: 60px;
 	color: black;
 	background-color: blue;
+	border-spacing: 15px;
+	border-width: 15px;
 	border-color: grey;
 	border-radius: 15%;
 	width: 400px;
-	height: 100px;
+	height: 120px;
 }
 
 #botao_3 {
@@ -47,10 +57,12 @@ h1 {
 	font-size: 60px;
 	color: black;
 	background-color: green;
+	border-spacing: 15px;
+	border-width: 15px;
 	border-color: grey;
 	border-radius: 15%;
 	width: 400px;
-	height: 100px;
+	height: 120px;
 }
 
 #botao_4 {
@@ -58,10 +70,12 @@ h1 {
 	font-size: 60px;
 	color: black;
 	background-color: gold;
+	border-spacing: 15px;
+	border-width: 15px;
 	border-color: grey;
 	border-radius: 15%;
 	width: 400px;
-	height: 100px;
+	height: 120px;
 }
 
 .tela {
