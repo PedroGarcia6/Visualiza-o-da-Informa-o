@@ -23,8 +23,8 @@ h1 {
 #botao_1 {
 	font-family: Comic Sans MS;
 	font-size: 60px;
-	color: red;
-	background-color: black;
+	color: black;
+	background-color: red;
 	border-color: grey;
 	border-radius: 15%;
 	width: 400px;
@@ -34,8 +34,8 @@ h1 {
 #botao_2 {
 	font-family: Comic Sans MS;
 	font-size: 60px;
-	color: blue;
-	background-color: black;
+	color: black;
+	background-color: blue;
 	border-color: grey;
 	border-radius: 15%;
 	width: 400px;
@@ -45,8 +45,8 @@ h1 {
 #botao_3 {
 	font-family: Comic Sans MS;
 	font-size: 60px;
-	color: green;
-	background-color: black;
+	color: black;
+	background-color: green;
 	border-color: grey;
 	border-radius: 15%;
 	width: 400px;
@@ -56,8 +56,8 @@ h1 {
 #botao_4 {
 	font-family: Comic Sans MS;
 	font-size: 60px;
-	color: yellow;
-	background-color: black;
+	color: black;
+	background-color: gold;
 	border-color: grey;
 	border-radius: 15%;
 	width: 400px;
