@@ -1,0 +1,96 @@
+body {
+	background-color: black;
+}
+
+h1 {
+	text-align: center;
+	color: silver;
+	font-size: 80px;
+}
+
+.texto {
+	font-family: Constantia;
+	text-align: center;
+	color: darkgrey;
+	font-size: 70px;
+	margin: 0px;
+}
+
+.tela {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 2100px;
+	height: 2100px;
+	/* border: 1px solid grey;
+	background: black; */
+}
+
+.doenca {
+	fill: #CAD5D9;
+	stroke-width: 2px;
+	stroke: black;
+  }
+  
+  .outras {
+	fill: #877777;
+	stroke-width: 2px;
+	stroke: black;
+  }
+  
+  .guerra {
+	fill: #E7BBB8;
+	stroke-width: 2px;
+	stroke: black;
+  }
+  
+  .doenca2 {
+	fill: #CAD5D9;
+	stroke-width: 2px;
+	stroke: black;
+  }
+  
+  .outras2 {
+	fill: #877777;
+	stroke-width: 2px;
+	stroke: black;
+  }
+  
+  .guerra2 {
+	fill: #E7BBB8;
+	stroke-width: 2px;
+	stroke: black;
+  }
+
+.ano1:hover {
+	opacity: 0;
+	transition: 0.2s;
+	}
+
+.tabela {
+	border-width: 15px;
+	background-color: black;
+	font-size: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#legenda {
+	color: grey;
+}
+
+#azul {
+	background-color: #CAD5D9;
+	color: #CAD5D9;
+}
+
+#rosa {
+	background-color: #E7BBB8;
+	color: #E7BBB8;
+}
+
+#cinza {
+	background-color: #877777;
+	color: #877777;
+}
