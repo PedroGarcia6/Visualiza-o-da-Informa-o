@@ -1,7 +1,7 @@
 # Visualizacao-da-Informacao
 *Projetos de "Visualização da Informação"*
 
-
+________________________________________________________________________________________________________________________________________________________________
 
 **Quarteto de Anscombe**
 
@@ -13,7 +13,7 @@ Terceira versão (botões de pulsos): https://htmlpreview.github.io/?https://git
 
 Quarta versão (adicionando eixos): https://htmlpreview.github.io/?https://github.com/PedroGarcia6/Visualizacao-da-Informacao/blob/main/quart5.html.
 
-
+________________________________________________________________________________________________________________________________________________________________
 
 **Diagrama da Rosa**
 
