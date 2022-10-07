@@ -10,3 +10,7 @@ Segunda versão (deslocamentos): https://htmlpreview.github.io/?https://github.c
 Terceira versão (botões de pulsos): https://htmlpreview.github.io/?https://github.com/PedroGarcia6/Visualizacao-da-Informacao/blob/main/quart4.html
 
 Quarta versão (adicionando eixos): https://htmlpreview.github.io/?https://github.com/PedroGarcia6/Visualizacao-da-Informacao/blob/main/quart5.html
+
+**Diagrama da Rosa**
+
+Florence Nightingale: 
