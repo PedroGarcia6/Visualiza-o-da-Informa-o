@@ -3,7 +3,7 @@
 
 ________________________________________________________________________________________________________________________________________________________________
 
-**Quarteto de Anscombe**
+**Trabalho 1 - Quarteto de Anscombe**
 
 Primeira versão (pulsos): https://htmlpreview.github.io/?https://github.com/PedroGarcia6/Visualizacao-da-Informacao/blob/main/quart.html.
 
@@ -15,6 +15,6 @@ Quarta versão (adicionando eixos): https://htmlpreview.github.io/?https://githu
 
 ________________________________________________________________________________________________________________________________________________________________
 
-**Diagrama da Rosa**
+**Trabalho 2 - Diagrama da Rosa**
 
 Florence Nightingale: https://htmlpreview.github.io/?https://github.com/PedroGarcia6/Visualizacao-da-Informacao/blob/main/flor2.html.
