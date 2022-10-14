@@ -23,4 +23,6 @@ ________________________________________________________________________________
 
 **Trabalho 3 - Esportes**
 
-Campeões da Copa: https://htmlpreview.github.io/?https://github.com/PedroGarcia6/Visualizacao-da-Informacao/blob/main/copas5.html.
+Campeões da Copa (bolas): https://htmlpreview.github.io/?https://github.com/PedroGarcia6/Visualizacao-da-Informacao/blob/main/copas3.html.
+
+Campeões da Copa (bandeiras): https://htmlpreview.github.io/?https://github.com/PedroGarcia6/Visualizacao-da-Informacao/blob/main/copas5.html.
