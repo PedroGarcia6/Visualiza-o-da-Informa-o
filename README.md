@@ -18,3 +18,9 @@ ________________________________________________________________________________
 **Trabalho 2 - Diagrama da Rosa**
 
 Florence Nightingale: https://htmlpreview.github.io/?https://github.com/PedroGarcia6/Visualizacao-da-Informacao/blob/main/flor2.html.
+
+________________________________________________________________________________________________________________________________________________________________
+
+**Trabalho 3 - Esportes**
+
+Campeões da Copa: https://htmlpreview.github.io/?https://github.com/PedroGarcia6/Visualizacao-da-Informacao/blob/main/copas5.html.
