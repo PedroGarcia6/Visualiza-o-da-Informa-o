@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Campeões do Mundo</title>
+		<meta charset="UTF-8">
+		<link href="copas5.css" rel="stylesheet">
+		<link rel="sortcut icon" href="bola.png">
+		<script src="http://d3js.org/d3.v3.min.js"></script>
+	</head>
+
+	<body>
+
+		<script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+	
+		<div class="tela">
+	
+		<div id="conteudo-left">
+			<div class="eixoy">
+			<div class="y1">1</div>
+			<div class="y2">2</div>
+			<div class="y3">3</div>
+			<div class="y4">4</div>
+			<div class="y5">5</div>
+
+		</div>
+		
+		</div>
+
+		<div id="conteudo-right">
+
+		<div class="quadro">
+
+			<div class="m0"></div>
+			<div class="m1"></div>
+			<div class="m2"></div>
+			<div class="m3"></div>
+			<div class="m4"></div>
+			<div class="m5"></div>  
+			<div class="n1"></div>
+			<div class="n2"></div>
+			<div class="n3"></div>
+			<div class="n4"></div>
+			<div class="n5"></div>
+			<div class="n6"></div>
+			<div class="n7"></div>
+			<div class="n8"></div>
+			<div class="n9"></div>
+			<div class="n10"></div>
+			<div class="n11"></div>
+			<div class="n12"></div>
+			<div class="n13"></div>
+			<div class="n14"></div>
+			<div class="n15"></div>
+			<div class="n16"></div>
+			<div class="n17"></div>
+			<div class="n18"></div>
+			<div class="n19"></div>
+			<div class="n20"></div>
+			<div class="n21"></div>
+			<div class="n22"></div>
+			<div class="n23"></div>
+			<div class="n24"></div>
+		
+			<div class="c1"></div>
+			<div class="c2"></div>
+			<div class="c3"></div>
+			<div class="c4"></div>
+			<div class="c5"></div>
+			<div class="c6"></div>
+			<div class="c7"></div>
+			<div class="c8"></div>
+			<div class="c9"></div>
+			<div class="c10"></div>
+			<div class="c11"></div>
+	
+			<script>
+		
+		let c1 = document.querySelector(".c1");
+		let c2 = document.querySelector(".c2");
+		let c3 = document.querySelector(".c3");
+		let c4 = document.querySelector(".c4");
+		let c5 = document.querySelector(".c5");
+		let c6 = document.querySelector(".c6");
+		let c7 = document.querySelector(".c7");
+		let c8 = document.querySelector(".c8");
+		let c9 = document.querySelector(".c9");
+		let c10 = document.querySelector(".c10");
+		let c11 = document.querySelector(".c11");
+		
+		const conj_1 = document.getElementById("botao_1");
+		
+		conj_1.addEventListener("click", ()=> {
+			c1.style.animation = "";
+			setTimeout(() => c1.style.animation = "pulse1_c1 60s");
+			c2.style.animation = "";
+			setTimeout(() => c2.style.animation = "pulse1_c2 60s");
+			c3.style.animation = "";
+			setTimeout(() => c3.style.animation = "pulse1_c3 60s");
+			c4.style.animation = "";
+			setTimeout(() => c4.style.animation = "pulse1_c4 60s");
+			c5.style.animation = "";
+			setTimeout(() => c5.style.animation = "pulse1_c5 60s");
+			c6.style.animation = "";
+			setTimeout(() => c6.style.animation = "pulse1_c6 60s");
+			c7.style.animation = "";
+			setTimeout(() => c7.style.animation = "pulse1_c7 60s");
+			c8.style.animation = "";
+			setTimeout(() => c8.style.animation = "pulse1_c8 60s");
+			c9.style.animation = "";
+			setTimeout(() => c9.style.animation = "pulse1_c9 60s");
+			c10.style.animation = "";
+			setTimeout(() => c10.style.animation = "pulse1_c10 60s");
+			c11.style.animation = "";
+			setTimeout(() => c11.style.animation = "pulse1_c11 60s");
+		})
+		
+		const conj_2 = document.getElementById("botao_2");
+		
+		conj_2.addEventListener("click", ()=> {
+			c1.style.animation = "";
+			setTimeout(() => c1.style.animation = "pulse2_c1 60s");
+			c2.style.animation = "";
+			setTimeout(() => c2.style.animation = "pulse2_c2 60s");
+			c3.style.animation = "";
+			setTimeout(() => c3.style.animation = "pulse2_c3 60s");
+			c4.style.animation = "";
+			setTimeout(() => c4.style.animation = "pulse2_c4 60s");
+			c5.style.animation = "";
+			setTimeout(() => c5.style.animation = "pulse2_c5 60s");
+			c6.style.animation = "";
+			setTimeout(() => c6.style.animation = "pulse2_c6 60s");
+			c7.style.animation = "";
+			setTimeout(() => c7.style.animation = "pulse2_c7 60s");
+			c8.style.animation = "";
+			setTimeout(() => c8.style.animation = "pulse2_c8 60s");
+			c9.style.animation = "";
+			setTimeout(() => c9.style.animation = "pulse2_c9 60s");
+			c10.style.animation = "";
+			setTimeout(() => c10.style.animation = "pulse2_c10 60s");
+			c11.style.animation = "";
+			setTimeout(() => c11.style.animation = "pulse2_c11 60s");
+		})
+	
+		const conj_3 = document.getElementById("botao_3");
+		
+		conj_3.addEventListener("click", ()=> {
+			c1.style.animation = "";
+			setTimeout(() => c1.style.animation = "pulse3_c1 60s");
+			c2.style.animation = "";
+			setTimeout(() => c2.style.animation = "pulse3_c2 60s");
+			c3.style.animation = "";
+			setTimeout(() => c3.style.animation = "pulse3_c3 60s");
+			c4.style.animation = "";
+			setTimeout(() => c4.style.animation = "pulse3_c4 60s");
+			c5.style.animation = "";
+			setTimeout(() => c5.style.animation = "pulse3_c5 60s");
+			c6.style.animation = "";
+			setTimeout(() => c6.style.animation = "pulse3_c6 60s");
+			c7.style.animation = "";
+			setTimeout(() => c7.style.animation = "pulse3_c7 60s");
+			c8.style.animation = "";
+			setTimeout(() => c8.style.animation = "pulse3_c8 60s");
+			c9.style.animation = "";
+			setTimeout(() => c9.style.animation = "pulse3_c9 60s");
+			c10.style.animation = "";
+			setTimeout(() => c10.style.animation = "pulse3_c10 60s");
+			c11.style.animation = "";
+			setTimeout(() => c11.style.animation = "pulse3_c11 60s");
+		})
+		
+		const conj_4 = document.getElementById("botao_4");
+		
+		conj_4.addEventListener("click", ()=> {
+			c1.style.animation = "";
+			setTimeout(() => c1.style.animation = "pulse4_c1 60s");
+			c2.style.animation = "";
+			setTimeout(() => c2.style.animation = "pulse4_c2 60s");
+			c3.style.animation = "";
+			setTimeout(() => c3.style.animation = "pulse4_c3 60s");
+			c4.style.animation = "";
+			setTimeout(() => c4.style.animation = "pulse4_c4 60s");
+			c5.style.animation = "";
+			setTimeout(() => c5.style.animation = "pulse4_c5 60s");
+			c6.style.animation = "";
+			setTimeout(() => c6.style.animation = "pulse4_c6 60s");
+			c7.style.animation = "";
+			setTimeout(() => c7.style.animation = "pulse4_c7 60s");
+			c8.style.animation = "";
+			setTimeout(() => c8.style.animation = "pulse4_c8 60s");
+			c9.style.animation = "";
+			setTimeout(() => c9.style.animation = "pulse4_c9 60s");
+			c10.style.animation = "";
+			setTimeout(() => c10.style.animation = "pulse4_c10 60s");
+			c11.style.animation = "";
+			setTimeout(() => c11.style.animation = "pulse4_c11 60s");
+		})
+		
+		</script>
+
+<!--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% BRASIL %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
+	
+<div class="brasil">
+	<div class="bra1">
+		<svg width="40" height="30">
+			<path d="M 20 3 L 37 15 20 27 3 15 Z" fill="gold"></path>
+			<circle cx="20" cy="15" r="7" fill="blue"></circle>
+		</svg>
+	</div>
+
+	<div class="bra2">
+		<svg width="40" height="30">
+			<path d="M 20 3 L 37 15 20 27 3 15 Z" fill="gold"></path>
+			<circle cx="20" cy="15" r="7" fill="blue"></circle>
+		</svg>
+	</div>
+
+	<div class="bra3">
+		<svg width="40" height="30">
+			<path d="M 20 3 L 37 15 20 27 3 15 Z" fill="gold"></path>
+			<circle cx="20" cy="15" r="7" fill="blue"></circle>
+		</svg>
+	</div>
+
+	<div class="bra4">
+		<svg width="40" height="30">
+			<path d="M 20 3 L 37 15 20 27 3 15 Z" fill="gold"></path>
+			<circle cx="20" cy="15" r="7" fill="blue"></circle>
+		</svg>
+	</div>
+
+	<div class="bra5">
+		<svg width="40" height="30">
+			<path d="M 20 3 L 37 15 20 27 3 15 Z" fill="gold"></path>
+			<circle cx="20" cy="15" r="7" fill="blue"></circle>
+		</svg>
+	</div>
+</div>
+
+<!-- <div class="brasil">
+<div class="brasil1">
+	<svg width="40" height="30">
+		<rect width="40" height="30" stroke="black" fill="rgba(1,1,1,0)"></rect>
+	</svg>
+</div>
+
+<div class="brasil2">
+	<svg width="40" height="30">
+		<rect width="40" height="30" stroke="black" fill="rgba(1,1,1,0)"></rect>
+	</svg>
+</div>
+
+<div class="brasil3">
+	<svg width="40" height="30">
+		<rect width="40" height="30" stroke="black" fill="rgba(1,1,1,0)"></rect>
+	</svg>
+</div>
+
+<div class="brasil4">
+	<svg width="40" height="30">
+		<rect width="40" height="30" stroke="black" fill="rgba(1,1,1,0)"></rect>
+	</svg>
+</div>
+
+<div class="brasil5">
+	<svg width="40" height="30">
+		<rect width="40" height="30" stroke="black" fill="rgba(1,1,1,0)"></rect>
+	</svg>
+</div>
+</div> -->
+
+<script>
+let brasil = document.querySelector(".c1");
+</script>
+
+<!--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ITALIA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
+
+<div class="italia">
+	<div class="ita1">
+		<svg width="40" height="30">
+			<rect width="13.5" height="30" fill="green"></rect>
+			<rect x="26.5" width="13.5" height="30" fill="red"></rect>
+		</svg>
+	</div>
+
+	<div class="ita2">
+		<svg width="40" height="30">
+			<rect width="13.5" height="30" fill="green"></rect>
+			<rect x="26.5" width="13.5" height="30" fill="red"></rect>
+		</svg>
+	</div>
+
+	<div class="ita3">
+		<svg width="40" height="30">
+			<rect width="13.5" height="30" fill="green"></rect>
+			<rect x="26.5" width="13.5" height="30" fill="red"></rect>
+		</svg>
+	</div>
+
+	<div class="ita4">
+		<svg width="40" height="30">
+			<rect width="13.5" height="30" fill="green"></rect>
+			<rect x="26.5" width="13.5" height="30" fill="red"></rect>
+		</svg>
+	</div>
+</div>
+
+<!--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ESPANHA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
+
+<div class="espanha">
+	<div class="esp1">
+		<svg width="40" height="30">
+			<rect y="8" width="40" height="14" fill="yellow"></rect>
+			<circle cx="13" cy="15" r="5" fill="orange"></circle>
+		</svg>
+	</div>
+</div>
+
+<!--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% INGLATERRA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
+
+<div class="inglaterra">
+	<div class="ing1">
+		<svg width="40" height="30">
+			<rect x="17" width="6" height="30" fill="red"></rect>
+			<rect y="12" width="40" height="6" fill="red"></rect>
+		</svg>
+	</div>
+</div>
+
+<!--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% FRANCA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
+
+<div class="franca">
+	<div class="fra1">
+		<svg width="40" height="30">
+			<rect x="26.7" width="13.3" height="30" fill="red"></rect>
+			<rect width="13.3" height="30" fill="blue"></rect>
+		</svg>
+	</div>
+	
+	<div class="fra2">
+		<svg width="40" height="30">
+			<rect x="26.7" width="13.3" height="30" fill="red"></rect>
+			<rect width="13.3" height="30" fill="blue"></rect>
+		</svg>
+	</div>
+</div>
+
+<!--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ARGENTINA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
+
+<div class="argentina">			
+	<div class="arg1">
+		<svg width="40" height="30">
+			<rect y="10" width="40" height="10" fill="white"></rect>
+			<circle cx="20" cy="15" r="4" fill="gold"></circle>
+		</svg>
+	</div>
+	
+	<div class="arg2">
+		<svg width="40" height="30">
+			<rect y="10" width="40" height="10" fill="white"></rect>
+			<circle cx="20" cy="15" r="4" fill="gold"></circle>
+		</svg>
+	</div>
+</div>	
+
+<!--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% URUGUAI %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
+
+<div class="uruguai">
+	<div class="uru1">
+		<svg width="40" height="30">
+			<rect x="16" y="3.33" width="24" height="3.33" fill="blue"></rect>
+			<rect x="16" y="9.99" width="24" height="3.33" fill="blue"></rect>
+			<rect y="16.65" width="40" height="3.33" fill="blue"></rect>
+			<rect y="23.31" width="40" height="3.33" fill="blue"></rect>
+			<circle cx="8" cy="8" r="5" fill="gold"></circle>
+		</svg>
+	</div>
+
+	<div class="uru2">
+		<svg width="40" height="30">
+			<rect x="16" y="3.33" width="24" height="3.33" fill="blue"></rect>
+			<rect x="16" y="9.99" width="24" height="3.33" fill="blue"></rect>
+			<rect y="16.65" width="40" height="3.33" fill="blue"></rect>
+			<rect y="23.31" width="40" height="3.33" fill="blue"></rect>
+			<circle cx="8" cy="8" r="5" fill="gold"></circle>
+		</svg>
+	</div>
+</div>
+
+<!--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ALEMANHA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
+
+<div class="alemanha">
+	<div class="ale1">
+		<svg width="40" height="30">
+			<rect y="10" width="40" height="10" fill="red"></rect>
+			<rect y="20" width="40" height="10" fill="gold"></rect>
+		</svg>
+	</div>
+
+	<div class="ale2">
+		<svg width="40" height="30">
+			<rect y="10" width="40" height="10" fill="red"></rect>
+			<rect y="20" width="40" height="10" fill="gold"></rect>
+		</svg>
+	</div>
+
+	<div class="ale3">
+		<svg width="40" height="30">
+			<rect y="10" width="40" height="10" fill="red"></rect>
+			<rect y="20" width="40" height="10" fill="gold"></rect>
+		</svg>
+	</div>
+
+	<div class="ale4">
+		<svg width="40" height="30">
+			<rect y="10" width="40" height="10" fill="red"></rect>
+			<rect y="20" width="40" height="10" fill="gold"></rect>
+		</svg>
+	</div>
+</div>
+
+		</div>
+	</div>
+<!--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% BRASIL %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
+	
+<div class="brasil2">
+	<div class="bra1_">
+		<svg width="40" height="30">
+			<path d="M 20 3 L 37 15 20 27 3 15 Z" fill="gold"></path>
+			<circle cx="20" cy="15" r="7" fill="blue"></circle>
+		</svg>
+	</div>
+
+	<div class="bra2_">
+		<svg width="40" height="30">
+			<path d="M 20 3 L 37 15 20 27 3 15 Z" fill="gold"></path>
+			<circle cx="20" cy="15" r="7" fill="blue"></circle>
+		</svg>
+	</div>
+
+	<div class="bra3_">
+		<svg width="40" height="30">
+			<path d="M 20 3 L 37 15 20 27 3 15 Z" fill="gold"></path>
+			<circle cx="20" cy="15" r="7" fill="blue"></circle>
+		</svg>
+	</div>
+
+	<div class="bra4_">
+		<svg width="40" height="30">
+			<path d="M 20 3 L 37 15 20 27 3 15 Z" fill="gold"></path>
+			<circle cx="20" cy="15" r="7" fill="blue"></circle>
+		</svg>
+	</div>
+
+	<div class="bra5_">
+		<svg width="40" height="30">
+			<path d="M 20 3 L 37 15 20 27 3 15 Z" fill="gold"></path>
+			<circle cx="20" cy="15" r="7" fill="blue"></circle>
+		</svg>
+	</div>
+</div>
+
+<script>
+let brasil2 = document.querySelector(".c1");
+</script>
+
+<!--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ITALIA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
+
+<div class="italia2">
+	<div class="ita1_">
+		<svg width="40" height="30">
+			<rect width="13.5" height="30" fill="green"></rect>
+			<rect x="26.5" width="13.5" height="30" fill="red"></rect>
+		</svg>
+	</div>
+
+	<div class="ita2_">
+		<svg width="40" height="30">
+			<rect width="13.5" height="30" fill="green"></rect>
+			<rect x="26.5" width="13.5" height="30" fill="red"></rect>
+		</svg>
+	</div>
+
+	<div class="ita3_">
+		<svg width="40" height="30">
+			<rect width="13.5" height="30" fill="green"></rect>
+			<rect x="26.5" width="13.5" height="30" fill="red"></rect>
+		</svg>
+	</div>
+
+	<div class="ita4_">
+		<svg width="40" height="30">
+			<rect width="13.5" height="30" fill="green"></rect>
+			<rect x="26.5" width="13.5" height="30" fill="red"></rect>
+		</svg>
+	</div>
+</div>
+
+<!--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ESPANHA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
+
+<div class="espanha2">
+	<div class="esp1_">
+		<svg width="40" height="30">
+			<rect y="8" width="40" height="14" fill="yellow"></rect>
+			<circle cx="13" cy="15" r="5" fill="orange"></circle>
+		</svg>
+	</div>
+</div>
+
+<!--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% INGLATERRA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
+
+<div class="inglaterra2">
+	<div class="ing1_">
+		<svg width="40" height="30">
+			<rect x="17" width="6" height="30" fill="red"></rect>
+			<rect y="12" width="40" height="6" fill="red"></rect>
+		</svg>
+	</div>
+</div>
+
+<!--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% FRANCA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
+
+<div class="franca2">
+	<div class="fra1_">
+		<svg width="40" height="30">
+			<rect x="26.7" width="13.3" height="30" fill="red"></rect>
+			<rect width="13.3" height="30" fill="blue"></rect>
+		</svg>
+	</div>
+	
+	<div class="fra2_">
+		<svg width="40" height="30">
+			<rect x="26.7" width="13.3" height="30" fill="red"></rect>
+			<rect width="13.3" height="30" fill="blue"></rect>
+		</svg>
+	</div>
+</div>
+
+<!--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ARGENTINA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
+
+<div class="argentina2">			
+	<div class="arg1_">
+		<svg width="40" height="30">
+			<rect y="10" width="40" height="10" fill="white"></rect>
+			<circle cx="20" cy="15" r="4" fill="gold"></circle>
+		</svg>
+	</div>
+	
+	<div class="arg2_">
+		<svg width="40" height="30">
+			<rect y="10" width="40" height="10" fill="white"></rect>
+			<circle cx="20" cy="15" r="4" fill="gold"></circle>
+		</svg>
+	</div>
+</div>	
+
+<!--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% URUGUAI %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
+
+<div class="uruguai2">
+	<div class="uru1_">
+		<svg width="40" height="30">
+			<rect x="16" y="3.33" width="24" height="3.33" fill="blue"></rect>
+			<rect x="16" y="9.99" width="24" height="3.33" fill="blue"></rect>
+			<rect y="16.65" width="40" height="3.33" fill="blue"></rect>
+			<rect y="23.31" width="40" height="3.33" fill="blue"></rect>
+			<circle cx="8" cy="8" r="5" fill="gold"></circle>
+		</svg>
+	</div>
+
+	<div class="uru2_">
+		<svg width="40" height="30">
+			<rect x="16" y="3.33" width="24" height="3.33" fill="blue"></rect>
+			<rect x="16" y="9.99" width="24" height="3.33" fill="blue"></rect>
+			<rect y="16.65" width="40" height="3.33" fill="blue"></rect>
+			<rect y="23.31" width="40" height="3.33" fill="blue"></rect>
+			<circle cx="8" cy="8" r="5" fill="gold"></circle>
+		</svg>
+	</div>
+</div>
+
+<!--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ALEMANHA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
+
+<div class="alemanha2">
+	<div class="ale1_">
+		<svg width="40" height="30">
+			<rect y="10" width="40" height="10" fill="red"></rect>
+			<rect y="20" width="40" height="10" fill="gold"></rect>
+		</svg>
+	</div>
+
+	<div class="ale2_">
+		<svg width="40" height="30">
+			<rect y="10" width="40" height="10" fill="red"></rect>
+			<rect y="20" width="40" height="10" fill="gold"></rect>
+		</svg>
+	</div>
+
+	<div class="ale3_">
+		<svg width="40" height="30">
+			<rect y="10" width="40" height="10" fill="red"></rect>
+			<rect y="20" width="40" height="10" fill="gold"></rect>
+		</svg>
+	</div>
+
+	<div class="ale4_">
+		<svg width="40" height="30">
+			<rect y="10" width="40" height="10" fill="red"></rect>
+			<rect y="20" width="40" height="10" fill="gold"></rect>
+		</svg>
+	</div>
+</div>
+	
+		<div id="footer">
+		<div class="eixox">
+			<div class="x1">1930</div>	
+			<div class="x2">1934</div>
+			<div class="x3">1938</div>
+			<div class="x4">1942</div>
+			<div class="x5">1946</div>
+			<div class="x6">1950</div>
+			<div class="x7">1954</div>
+			<div class="x8">1958</div>
+			<div class="x9">1962</div>
+			<div class="x10">1966</div>
+			<div class="x11">1970</div>
+			<div class="x12">1974</div>
+			<div class="x13">1978</div>
+			<div class="x14">1982</div>
+			<div class="x15">1986</div>
+			<div class="x16">1990</div>
+			<div class="x17">1994</div>		
+			<div class="x18">1998</div>
+			<div class="x19">2002</div>
+			<div class="x20">2006</div>
+			<div class="x21">2010</div>
+			<div class="x22">2014</div>
+			<div class="x23">2018</div>
+			<div class="x24">2022</div>
+			
+		</div>	
+		</div>	
+			
+		</div>
+
+	<!-- <svg width="1300" height="620" >
+	</svg> -->
+
+	</div>
+
+	<!-- <div class="bras1">
+		<svg width="40" height="30">
+			<path d="M 20 3 L 37 15 20 27 3 15 Z" fill="gold"></path>
+			<circle cx="20" cy="15" r="7" fill="blue"></circle>
+		</svg>
+	</div> -->
+
+	</body>
+
+</html>
