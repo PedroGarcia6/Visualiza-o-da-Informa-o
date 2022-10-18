@@ -1,5 +1,5 @@
 body {
-	background-color: black;
+	background-color: rgba(2,2,2,0.96);
 }
 
 .tela {
@@ -24,7 +24,7 @@ body {
 
 #conteudo-left {
 	width: 10px;
-	height: 200px;
+	height: 230px;
 	float: left;
 	margin-top: 10px;
 	margin-left: 80px;
@@ -40,11 +40,12 @@ body {
 }
 
 #footer {
-	width: 1170px;
+	width: 1190px;
 	height: 30px;
 	margin-left: auto;
-	margin-right: 17px;
+	margin-right: 15px;
 	margin-top: 0px;
+	float: right;
 }
 
 .eixoy{
@@ -60,14 +61,19 @@ body {
 
 .eixox{
 	color: grey;
+	float: right;
 	font-size: 17px;
-	width: 1170px;
+	width: 1190px;
 	height: 20px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	align-items: flex-end;
+	align-items: right;
 }
+
+/* x1 {
+
+} */
 
 /*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% MARCACOES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 
@@ -661,33 +667,6 @@ body {
 
 /*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% BRASIL %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 
-/* .bras1{
-    cursor: pointer;
-	position: absolute;
-	background-color: green;
-	width: 40px;
-	height: 30px;
-	animation: posicao_bras1 1s infinite;
-}
-
-@keyframes posicao_bras1 {
-	0% {
-		left: 355px;
-		top: 183px;
-		opacity: 0;
-	}
-	100%{
-	  	left: 355px;
-	  	top: 183px;
-		opacity: 0;
-	}
-} */
-
-.bras1:hover {
-	opacity: 1;
-	transition: 0.2s;
-}
-
 .bra1{
     cursor: pointer;
 	position: absolute;
@@ -793,107 +772,6 @@ body {
 	  	top: 7px;
 	}
 }
-
-/*.brasil1{
-    cursor: pointer;
-	position: absolute;
-	width: 40px;
-	height: 30px;
-	animation: posicao_brasil1 1s infinite;
-}
-
-@keyframes posicao_brasil1 {
-	0% {
-		left: 355px;
-		top: 183px;
-	}
-	100%{
-	  	left: 355px;
-	  	top: 183px;
-	}
-}
-
-.brasil2{
-    cursor: pointer;
-	position: absolute;
-	width: 40px;
-	height: 30px;
-	animation: posicao_brasil2 1s infinite;
-}
-
-@keyframes posicao_brasil2 {
-	0% {
-		left: 405px;
-		top: 139px;
-	}
-	100%{
-	  	left: 405px;
-	  	top: 139px;
-	}
-}
-
-.brasil3{
-    cursor: pointer;
-	position: absolute;
-	background-position-x: 100;
-	background-position-y: 100;
-	width: 40px;
-	height: 30px;
-	animation: posicao_brasil3 1s infinite;
-}
-
-@keyframes posicao_brasil3 {
-	0% {
-		left: 505px;
-		top: 95px;
-	}
-	100%{
-	  	left: 505px;
-	  	top: 95px;
-	}
-}
-
-.brasil4{
-    cursor: pointer;
-	position: absolute;
-	background-position-x: 100;
-	background-position-y: 100;
-	width: 40px;
-	height: 30px;
-	animation: posicao_brasil4 1s infinite;
-}
-
-@keyframes posicao_brasil4 {
-	0% {
-		left: 805px;
-		top: 51px;
-	}
-	100%{
-	  	left: 805px;
-	  	top: 51px;
-	}
-}
-
-.brasil5{
-    cursor: pointer;
-	position: absolute;
-	background-position-x: 100;
-	background-position-y: 100;
-	width: 40px;
-	height: 30px;
-	animation: posicao_brasil5 1s infinite;
-}
-
-@keyframes posicao_brasil5 {
-	0% {
-		left: 905px;
-		top: 7px;
-	}
-	100%{
-	  	left: 905px;
-	  	top: 7px;
-	}
-} */
 
 /*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ITALIA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 
@@ -1828,5 +1706,539 @@ body {
 	100%{
 	  	left: 1156px;
 	  	top: 52px;
+	}
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SEDES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+.uru_sede1930{
+    cursor: pointer;
+	position: absolute;
+	background-color: white;
+	background-position-x: 100;
+	background-position-y: 100;
+	width: 40px;
+	height: 30px;
+	animation: posicao_uru_sede1930 1s infinite;
+	opacity: 0.3;
+}
+
+@keyframes posicao_uru_sede1930 {
+	0% {
+		left: 106px;
+		top: 244px;
+	}
+	100%{
+		left: 106px;
+		top: 244px;
+	}
+}
+
+
+.ita_sede1934{
+    cursor: pointer;
+	position: absolute;
+	background-color: white;
+	background-position-x: 100;
+	background-position-y: 100;
+	width: 40px;
+	height: 30px;
+	animation: posicao_ita_sede1934 1s infinite;
+	opacity: 0.3;
+}
+
+@keyframes posicao_ita_sede1934 {
+	0% {
+		left: 156px;
+		top: 244px;
+	}
+	100%{
+		left: 156px;
+		top: 244px;
+	}
+}
+
+.fra_sede1938{
+    cursor: pointer;
+	position: absolute;
+	background-color: white;
+	background-position-x: 100;
+	background-position-y: 100;
+	width: 40px;
+	height: 30px;
+	animation: posicao_fra_sede1938 1s infinite;
+	opacity: 0.3;
+}
+
+@keyframes posicao_fra_sede1938 {
+	0% {
+		left: 206px;
+		top: 244px;
+	}
+	100%{
+		left: 206px;
+		top: 244px;
+	}
+}
+
+.bra_sede1950{
+    cursor: pointer;
+	position: absolute;
+	background-color: green;
+	background-position-x: 100;
+	background-position-y: 100;
+	width: 40px;
+	height: 30px;
+	animation: posicao_bra_sede1950 1s infinite;
+	opacity: 0.3;
+}
+
+@keyframes posicao_bra_sede1950 {
+	0% {
+		left: 356px;
+		top: 244px;
+	}
+	100%{
+		left: 356px;
+		top: 244px;
+	}
+}
+
+.sui_sede1954{
+    cursor: pointer;
+	position: absolute;
+	background-color: red;
+	background-position-x: 100;
+	background-position-y: 100;
+	width: 40px;
+	height: 30px;
+	animation: posicao_sui_sede1954 1s infinite;
+	opacity: 0.3;
+}
+
+@keyframes posicao_sui_sede1954 {
+	0% {
+		left: 406px;
+		top: 244px;
+	}
+	100%{
+		left: 406px;
+		top: 244px;
+	}
+}
+
+.sue_sede1958{
+    cursor: pointer;
+	position: absolute;
+	background-color: blue;
+	background-position-x: 100;
+	background-position-y: 100;
+	width: 40px;
+	height: 30px;
+	animation: posicao_sue_sede1958 1s infinite;
+	opacity: 0.3;
+}
+
+@keyframes posicao_sue_sede1958 {
+	0% {
+		left: 456px;
+		top: 244px;
+	}
+	100%{
+		left: 456px;
+		top: 244px;
+	}
+}
+
+.chi_sede1962{
+    cursor: pointer;
+	position: absolute;
+	background-color: red;
+	background-position-x: 100;
+	background-position-y: 100;
+	width: 40px;
+	height: 30px;
+	animation: posicao_chi_sede1962 1s infinite;
+	opacity: 0.3;
+}
+
+@keyframes posicao_chi_sede1962 {
+	0% {
+		left: 506px;
+		top: 244px;
+	}
+	100%{
+		left: 506px;
+		top: 244px;
+	}
+}
+
+.ing_sede1966{
+    cursor: pointer;
+	position: absolute;
+	background-color: white;
+	background-position-x: 100;
+	background-position-y: 100;
+	width: 40px;
+	height: 30px;
+	animation: posicao_ing_sede1966 1s infinite;
+	opacity: 0.3;
+}
+
+@keyframes posicao_ing_sede1966 {
+	0% {
+		left: 556px;
+		top: 244px;
+	}
+	100%{
+		left: 556px;
+		top: 244px;
+	}
+}
+
+.mex_sede1970{
+    cursor: pointer;
+	position: absolute;
+	background-color: white;
+	background-position-x: 100;
+	background-position-y: 100;
+	width: 40px;
+	height: 30px;
+	animation: posicao_mex_sede1970 1s infinite;
+	opacity: 0.3;
+}
+
+@keyframes posicao_mex_sede1970 {
+	0% {
+		left: 606px;
+		top: 244px;
+	}
+	100%{
+		left: 606px;
+		top: 244px;
+	}
+}
+
+.ale_sede1974{
+    cursor: pointer;
+	position: absolute;
+	background-color: black;
+	background-position-x: 100;
+	background-position-y: 100;
+	width: 40px;
+	height: 30px;
+	animation: posicao_ale_sede1974 1s infinite;
+	opacity: 0.3;
+}
+
+@keyframes posicao_ale_sede1974 {
+	0% {
+		left: 656px;
+		top: 244px;
+	}
+	100%{
+		left: 656px;
+		top: 244px;
+	}
+}
+
+.arg_sede1978{
+    cursor: pointer;
+	position: absolute;
+	background-color: skyblue;
+	background-position-x: 100;
+	background-position-y: 100;
+	width: 40px;
+	height: 30px;
+	animation: posicao_arg_sede1978 1s infinite;
+	opacity: 0.3;
+}
+
+@keyframes posicao_arg_sede1978 {
+	0% {
+		left: 706px;
+		top: 244px;
+	}
+	100%{
+		left: 706px;
+		top: 244px;
+	}
+}
+
+.esp_sede1982{
+    cursor: pointer;
+	position: absolute;
+	background-color: red;
+	background-position-x: 100;
+	background-position-y: 100;
+	width: 40px;
+	height: 30px;
+	animation: posicao_esp_sede1982 1s infinite;
+	opacity: 0.3;
+}
+
+@keyframes posicao_esp_sede1982 {
+	0% {
+		left: 756px;
+		top: 244px;
+	}
+	100%{
+		left: 756px;
+		top: 244px;
+	}
+}
+
+.mex_sede1986{
+    cursor: pointer;
+	position: absolute;
+	background-color: white;
+	background-position-x: 100;
+	background-position-y: 100;
+	width: 40px;
+	height: 30px;
+	animation: posicao_mex_sede1986 1s infinite;
+	opacity: 0.3;
+}
+
+@keyframes posicao_mex_sede1986 {
+	0% {
+		left: 806px;
+		top: 244px;
+	}
+	100%{
+		left: 806px;
+		top: 244px;
+	}
+}
+
+.ita_sede1990{
+    cursor: pointer;
+	position: absolute;
+	background-color: white;
+	background-position-x: 100;
+	background-position-y: 100;
+	width: 40px;
+	height: 30px;
+	animation: posicao_ita_sede1990 1s infinite;
+	opacity: 0.3;
+}
+
+@keyframes posicao_ita_sede1990 {
+	0% {
+		left: 856px;
+		top: 244px;
+	}
+	100%{
+		left: 856px;
+		top: 244px;
+	}
+}
+
+.eua_sede1994{
+    cursor: pointer;
+	position: absolute;
+	background-color: red;
+	background-position-x: 100;
+	background-position-y: 100;
+	width: 40px;
+	height: 30px;
+	animation: posicao_eua_sede1994 1s infinite;
+	opacity: 0.3;
+}
+
+@keyframes posicao_eua_sede1994 {
+	0% {
+		left: 906px;
+		top: 244px;
+	}
+	100%{
+		left: 906px;
+		top: 244px;
+	}
+}
+
+.fra_sede1998{
+    cursor: pointer;
+	position: absolute;
+	background-color: white;
+	background-position-x: 100;
+	background-position-y: 100;
+	width: 40px;
+	height: 30px;
+	animation: posicao_fra_sede1998 1s infinite;
+	opacity: 0.3;
+}
+
+@keyframes posicao_fra_sede1998 {
+	0% {
+		left: 956px;
+		top: 244px;
+	}
+	100%{
+		left: 956px;
+		top: 244px;
+	}
+}
+
+.cor_sede2002{
+    cursor: pointer;
+	position: absolute;
+	background-color: white;
+	background-position-x: 100;
+	background-position-y: 100;
+	width: 40px;
+	height: 30px;
+	animation: posicao_cor_sede2002 1s infinite;
+	opacity: 0.3;
+}
+
+
+@keyframes posicao_cor_sede2002 {
+	0% {
+		left: 1006px;
+		top: 244px;
+	}
+	100%{
+		left: 1006px;
+		top: 244px;
+	}
+}
+
+.jap_sede2002{
+    cursor: pointer;
+	position: absolute;
+	background-color: white;
+	background-position-x: 100;
+	background-position-y: 100;
+	width: 40px;
+	height: 30px;
+	animation: posicao_jap_sede2002 1s infinite;
+	opacity: 0.3;
+}
+
+
+@keyframes posicao_jap_sede2002 {
+	0% {
+		left: 1006px;
+		top: 278px;
+	}
+	100%{
+		left: 1006px;
+		top: 278px;
+	}
+}
+
+.ale_sede2006{
+    cursor: pointer;
+	position: absolute;
+	background-color: black;
+	background-position-x: 100;
+	background-position-y: 100;
+	width: 40px;
+	height: 30px;
+	animation: posicao_ale_sede2006 1s infinite;
+	opacity: 0.3;
+}
+
+@keyframes posicao_ale_sede2006 {
+	0% {
+		left: 1056px;
+		top: 244px;
+	}
+	100%{
+		left: 1056px;
+		top: 244px;
+	}
+}
+
+.afr_sede2010{
+    cursor: pointer;
+	position: absolute;
+	background-color: white;
+	background-position-x: 100;
+	background-position-y: 100;
+	width: 40px;
+	height: 30px;
+	animation: posicao_afr_sede2010 1s infinite;
+	opacity: 0.3;
+}
+
+@keyframes posicao_afr_sede2010 {
+	0% {
+		left: 1106px;
+		top: 244px;
+	}
+	100%{
+		left: 1106px;
+		top: 244px;
+	}
+}
+
+.bra_sede2014{
+    cursor: pointer;
+	position: absolute;
+	background-color: green;
+	background-position-x: 100;
+	background-position-y: 100;
+	width: 40px;
+	height: 30px;
+	animation: posicao_bra_sede2014 1s infinite;
+	opacity: 0.3;
+}
+
+@keyframes posicao_bra_sede2014 {
+	0% {
+		left: 1156px;
+		top: 244px;
+	}
+	100%{
+		left: 1156px;
+		top: 244px;
+	}
+}
+
+.rus_sede2018{
+    cursor: pointer;
+	position: absolute;
+	background-color: white;
+	background-position-x: 100;
+	background-position-y: 100;
+	width: 40px;
+	height: 30px;
+	animation: posicao_rus_sede2018 1s infinite;
+	opacity: 0.3;
+}
+
+@keyframes posicao_rus_sede2018 {
+	0% {
+		left: 1206px;
+		top: 244px;
+	}
+	100%{
+		left: 1206px;
+		top: 244px;
+	}
+}
+
+.cat_sede2022{
+    cursor: pointer;
+	position: absolute;
+	background-color: white;
+	background-position-x: 100;
+	background-position-y: 100;
+	width: 40px;
+	height: 30px;
+	animation: posicao_cat_sede2022 1s infinite;
+	opacity: 0.3;
+}
+
+@keyframes posicao_cat_sede2022 {
+	0% {
+		left: 1256px;
+		top: 244px;
+	}
+	100%{
+		left: 1256px;
+		top: 244px;
 	}
 }
