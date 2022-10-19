@@ -1787,7 +1787,7 @@ body {
 	background-position-x: 100;
 	background-position-y: 100;
 	width: 40px;
-	height: 30px;
+	height: 0px;
 	animation: posicao_fra_sede1942 1s infinite;
 	opacity: 0.3;
 }
@@ -1795,11 +1795,11 @@ body {
 @keyframes posicao_fra_sede1942 {
 	0% {
 		left: 256px;
-		top: 229px;
+		top: 224px;
 	}
 	100%{
 		left: 256px;
-		top: 229px;
+		top: 224px;
 	}
 }
 
@@ -1810,7 +1810,7 @@ body {
 	background-position-x: 100;
 	background-position-y: 100;
 	width: 40px;
-	height: 30px;
+	height: 0px;
 	animation: posicao_sede1946 1s infinite;
 	opacity: 0.3;
 }
@@ -1818,11 +1818,34 @@ body {
 @keyframes posicao_sede1946 {
 	0% {
 		left: 306px;
-		top: 229px;
+		top: 224px;
 	}
 	100%{
 		left: 306px;
-		top: 229px;
+		top: 224px;
+	}
+}
+
+.guerra{
+    cursor: pointer;
+	position: absolute;
+	background-color: rgba(255,255,255,0);
+	background-position-x: 100;
+	background-position-y: 100;
+	width: 100px;
+	height: 0px;
+	animation: posicao_guerra 1s infinite;
+	opacity: 0.3;
+}
+
+@keyframes posicao_guerra {
+	0% {
+		left: 256px;
+		top: 244px;
+	}
+	100%{
+		left: 256px;
+		top: 244px;
 	}
 }
 
