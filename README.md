@@ -1,5 +1,5 @@
 # Visualizacao-da-Informacao
-*Projetos de "Visualização da Informação"*
+*Projetos de "Visualização da Informação"* (devem ser abertos preferencialmente no navegador Mozilla Firefox)
 
 ________________________________________________________________________________________________________________________________________________________________
 
