@@ -3679,7 +3679,7 @@ body {
 	background: rgba(200,200,200,0);
 	offset-path: path('M 4165 1800 L 4165 1800 T 4165 1800 Z');
 	offset-distance: 0%;
-	animation: posicao_perna 200s linear infinite;
+	animation: posicao_perna 200s linear;
 	transform: rotate(30deg);
 }
 
