@@ -90,7 +90,7 @@ body {
     cursor: pointer;
 	position: relative;
 	width: 1200px;
-	height: 1px;
+	height: 2px;
 	background-color: rgba(2,2,2,0);
 	animation: posicao_m0 1s infinite;
 }
@@ -108,7 +108,7 @@ body {
     cursor: pointer;
 	position: relative;
 	width: 1200px;
-	height: 1px;
+	height: 2px;
 	background-color: white;
 	animation: posicao_m1 1s infinite;
 }
@@ -126,7 +126,7 @@ body {
     cursor: pointer;
 	position: absolute;
 	width: 1200px;
-	height: 1px;
+	height: 2px;
 	background-color: white;
 	animation: posicao_m2 1s infinite;
 }
@@ -144,7 +144,7 @@ body {
     cursor: pointer;
 	position: absolute;
 	width: 1200px;
-	height: 1px;
+	height: 2px;
 	background-color: white;
 	animation: posicao_m3 1s infinite;
 }
@@ -162,7 +162,7 @@ body {
     cursor: pointer;
 	position: absolute;
 	width: 1200px;
-	height: 1px;
+	height: 2px;
 	background-color: white;
 	animation: posicao_m4 1s infinite;
 }
@@ -180,7 +180,7 @@ body {
     cursor: pointer;
 	position: absolute;
 	width: 1200px;
-	height: 1px;
+	height: 2px;
 	background-color: white;
 	animation: posicao_m5 1s infinite;
 }
@@ -197,7 +197,7 @@ body {
 .n1{
     cursor: pointer;
 	position: relative;
-	width: 1px;
+	width: 2px;
 	height: 220px;
 	background-color: white;
 	animation: posicao_n1 1s infinite;
@@ -205,11 +205,11 @@ body {
 
 @keyframes posicao_n1 {
 	0% {
-		top: -3px;
+		top: -4px;
 		left: 25px;
 	}
 	100%{
-		top: -3px;
+		top: -4px;
 	  	left: 25px;
 	}
 }
@@ -217,7 +217,7 @@ body {
 .n2{
     cursor: pointer;
 	position: relative;
-	width: 1px;
+	width: 2px;
 	height: 220px;
 	background-color: white;
 	animation: posicao_n2 1s infinite;
@@ -225,11 +225,11 @@ body {
 
 @keyframes posicao_n2 {
 	0% {
-		top: -223px;
+		top: -224px;
 		left: 75px;
 	}
 	100%{
-		top: -223px;
+		top: -224px;
 	  	left: 75px;
 	}
 }
@@ -237,7 +237,7 @@ body {
 .n3{
     cursor: pointer;
 	position: relative;
-	width: 1px;
+	width: 2px;
 	height: 220px;
 	background-color: white;
 	animation: posicao_n3 1s infinite;
@@ -245,11 +245,11 @@ body {
 
 @keyframes posicao_n3 {
 	0% {
-		top: -443px;
+		top: -444px;
 		left: 125px;
 	}
 	100%{
-		top: -443px;
+		top: -444px;
 	  	left: 125px;
 	}
 }
@@ -257,7 +257,7 @@ body {
 .n4{
     cursor: pointer;
 	position: relative;
-	width: 1px;
+	width: 2px;
 	height: 220px;
 	background-color: white;
 	animation: posicao_n4 1s infinite;
@@ -265,11 +265,11 @@ body {
 
 @keyframes posicao_n4 {
 	0% {
-		top: -663px;
+		top: -664px;
 		left: 175px;
 	}
 	100%{
-		top: -663px;
+		top: -664px;
 	  	left: 175px;
 	}
 }
@@ -277,7 +277,7 @@ body {
 .n5{
     cursor: pointer;
 	position: relative;
-	width: 1px;
+	width: 2px;
 	height: 220px;
 	background-color: white;
 	animation: posicao_n5 1s infinite;
@@ -285,11 +285,11 @@ body {
 
 @keyframes posicao_n5 {
 	0% {
-		top: -883px;
+		top: -884px;
 		left: 225px;
 	}
 	100%{
-		top: -883px;
+		top: -884px;
 	  	left: 225px;
 	}
 }
@@ -297,7 +297,7 @@ body {
 .n6{
     cursor: pointer;
 	position: relative;
-	width: 1px;
+	width: 2px;
 	height: 220px;
 	background-color: white;
 	animation: posicao_n6 1s infinite;
@@ -305,11 +305,11 @@ body {
 
 @keyframes posicao_n6 {
 	0% {
-		top: -1103px;
+		top: -1104px;
 		left: 275px;
 	}
 	100%{
-		top: -1103px;
+		top: -1104px;
 	  	left: 275px;
 	}
 }
@@ -317,7 +317,7 @@ body {
 .n7{
     cursor: pointer;
 	position: relative;
-	width: 1px;
+	width: 2px;
 	height: 220px;
 	background-color: white;
 	animation: posicao_n7 1s infinite;
@@ -325,11 +325,11 @@ body {
 
 @keyframes posicao_n7 {
 	0% {
-		top: -1323px;
+		top: -1324px;
 		left: 325px;
 	}
 	100%{
-		top: -1323px;
+		top: -1324px;
 	  	left: 325px;
 	}
 }
@@ -337,7 +337,7 @@ body {
 .n8{
     cursor: pointer;
 	position: relative;
-	width: 1px;
+	width: 2px;
 	height: 220px;
 	background-color: white;
 	animation: posicao_n8 1s infinite;
@@ -345,11 +345,11 @@ body {
 
 @keyframes posicao_n8 {
 	0% {
-		top: -1543px;
+		top: -1544px;
 		left: 375px;
 	}
 	100%{
-		top: -1543px;
+		top: -1544px;
 	  	left: 375px;
 	}
 }
@@ -357,7 +357,7 @@ body {
 .n9{
     cursor: pointer;
 	position: relative;
-	width: 1px;
+	width: 2px;
 	height: 220px;
 	background-color: white;
 	animation: posicao_n9 1s infinite;
@@ -365,11 +365,11 @@ body {
 
 @keyframes posicao_n9 {
 	0% {
-		top: -1763px;
+		top: -1764px;
 		left: 425px;
 	}
 	100%{
-		top: -1763px;
+		top: -1764px;
 	  	left: 425px;
 	}
 }
@@ -377,7 +377,7 @@ body {
 .n10{
     cursor: pointer;
 	position: relative;
-	width: 1px;
+	width: 2px;
 	height: 220px;
 	background-color: white;
 	animation: posicao_n10 1s infinite;
@@ -385,11 +385,11 @@ body {
 
 @keyframes posicao_n10 {
 	0% {
-		top: -1983px;
+		top: -1984px;
 		left: 475px;
 	}
 	100%{
-		top: -1983px;
+		top: -1984px;
 	  	left: 475px;
 	}
 }
@@ -397,7 +397,7 @@ body {
 .n11{
     cursor: pointer;
 	position: relative;
-	width: 1px;
+	width: 2px;
 	height: 220px;
 	background-color: white;
 	animation: posicao_n11 1s infinite;
@@ -405,11 +405,11 @@ body {
 
 @keyframes posicao_n11 {
 	0% {
-		top: -2203px;
+		top: -2204px;
 		left: 525px;
 	}
 	100%{
-		top: -2203px;
+		top: -2204px;
 	  	left: 525px;
 	}
 }
@@ -417,7 +417,7 @@ body {
 .n12{
     cursor: pointer;
 	position: relative;
-	width: 1px;
+	width: 2px;
 	height: 220px;
 	background-color: white;
 	animation: posicao_n12 1s infinite;
@@ -425,11 +425,11 @@ body {
 
 @keyframes posicao_n12 {
 	0% {
-		top: -2423px;
+		top: -2424px;
 		left: 575px;
 	}
 	100%{
-		top: -2423px;
+		top: -2424px;
 	  	left: 575px;
 	}
 }
@@ -437,7 +437,7 @@ body {
 .n13{
     cursor: pointer;
 	position: relative;
-	width: 1px;
+	width: 2px;
 	height: 220px;
 	background-color: white;
 	animation: posicao_n13 1s infinite;
@@ -445,11 +445,11 @@ body {
 
 @keyframes posicao_n13 {
 	0% {
-		top: -2643px;
+		top: -2644px;
 		left: 625px;
 	}
 	100%{
-		top: -2643px;
+		top: -2644px;
 	  	left: 625px;
 	}
 }
@@ -457,7 +457,7 @@ body {
 .n14{
     cursor: pointer;
 	position: relative;
-	width: 1px;
+	width: 2px;
 	height: 220px;
 	background-color: white;
 	animation: posicao_n14 1s infinite;
@@ -465,11 +465,11 @@ body {
 
 @keyframes posicao_n14 {
 	0% {
-		top: -2863px;
+		top: -2864px;
 		left: 675px;
 	}
 	100%{
-		top: -2863px;
+		top: -2864px;
 	  	left: 675px;
 	}
 }
@@ -477,7 +477,7 @@ body {
 .n15{
     cursor: pointer;
 	position: relative;
-	width: 1px;
+	width: 2px;
 	height: 220px;
 	background-color: white;
 	animation: posicao_n15 1s infinite;
@@ -485,11 +485,11 @@ body {
 
 @keyframes posicao_n15 {
 	0% {
-		top: -3083px;
+		top: -3084px;
 		left: 725px;
 	}
 	100%{
-		top: -3083px;
+		top: -3084px;
 	  	left: 725px;
 	}
 }
@@ -497,7 +497,7 @@ body {
 .n16{
     cursor: pointer;
 	position: relative;
-	width: 1px;
+	width: 2px;
 	height: 220px;
 	background-color: white;
 	animation: posicao_n16 1s infinite;
@@ -505,11 +505,11 @@ body {
 
 @keyframes posicao_n16 {
 	0% {
-		top: -3303px;
+		top: -3304px;
 		left: 775px;
 	}
 	100%{
-		top: -3303px;
+		top: -3304px;
 	  	left: 775px;
 	}
 }
@@ -517,7 +517,7 @@ body {
 .n17{
     cursor: pointer;
 	position: relative;
-	width: 1px;
+	width: 2px;
 	height: 220px;
 	background-color: white;
 	animation: posicao_n17 1s infinite;
@@ -525,11 +525,11 @@ body {
 
 @keyframes posicao_n17 {
 	0% {
-		top: -3523px;
+		top: -3524px;
 		left: 825px;
 	}
 	100%{
-		top: -3523px;
+		top: -3524px;
 	  	left: 825px;
 	}
 }
@@ -537,7 +537,7 @@ body {
 .n18{
     cursor: pointer;
 	position: relative;
-	width: 1px;
+	width: 2px;
 	height: 220px;
 	background-color: white;
 	animation: posicao_n18 1s infinite;
@@ -545,11 +545,11 @@ body {
 
 @keyframes posicao_n18 {
 	0% {
-		top: -3743px;
+		top: -3744px;
 		left: 875px;
 	}
 	100%{
-		top: -3743px;
+		top: -3744px;
 	  	left: 875px;
 	}
 }
@@ -557,7 +557,7 @@ body {
 .n19{
     cursor: pointer;
 	position: relative;
-	width: 1px;
+	width: 2px;
 	height: 220px;
 	background-color: white;
 	animation: posicao_n19 1s infinite;
@@ -565,11 +565,11 @@ body {
 
 @keyframes posicao_n19 {
 	0% {
-		top: -3963px;
+		top: -3964px;
 		left: 925px;
 	}
 	100%{
-		top: -3963px;
+		top: -3964px;
 	  	left: 925px;
 	}
 }
@@ -577,7 +577,7 @@ body {
 .n20{
     cursor: pointer;
 	position: relative;
-	width: 1px;
+	width: 2px;
 	height: 220px;
 	background-color: white;
 	animation: posicao_n20 1s infinite;
@@ -585,11 +585,11 @@ body {
 
 @keyframes posicao_n20 {
 	0% {
-		top: -4183px;
+		top: -4184px;
 		left: 975px;
 	}
 	100%{
-		top: -4183px;
+		top: -4184px;
 	  	left: 975px;
 	}
 }
@@ -597,7 +597,7 @@ body {
 .n21{
     cursor: pointer;
 	position: relative;
-	width: 1px;
+	width: 2px;
 	height: 220px;
 	background-color: white;
 	animation: posicao_n21 1s infinite;
@@ -605,11 +605,11 @@ body {
 
 @keyframes posicao_n21 {
 	0% {
-		top: -4403px;
+		top: -4404px;
 		left: 1025px;
 	}
 	100%{
-		top: -4403px;
+		top: -4404px;
 	  	left: 1025px;
 	}
 }
@@ -617,7 +617,7 @@ body {
 .n22{
     cursor: pointer;
 	position: relative;
-	width: 1px;
+	width: 2px;
 	height: 220px;
 	background-color: white;
 	animation: posicao_n22 1s infinite;
@@ -625,11 +625,11 @@ body {
 
 @keyframes posicao_n22 {
 	0% {
-		top: -4623px;
+		top: -4624px;
 		left: 1075px;
 	}
 	100%{
-		top: -4623px;
+		top: -4624px;
 	  	left: 1075px;
 	}
 }
@@ -637,7 +637,7 @@ body {
 .n23{
     cursor: pointer;
 	position: relative;
-	width: 1px;
+	width: 2px;
 	height: 220px;
 	background-color: white;
 	animation: posicao_n23 1s infinite;
@@ -645,11 +645,11 @@ body {
 
 @keyframes posicao_n23 {
 	0% {
-		top: -4843px;
+		top: -4844px;
 		left: 1125px;
 	}
 	100%{
-		top: -4843px;
+		top: -4844px;
 	  	left: 1125px;
 	}
 }
@@ -657,7 +657,7 @@ body {
 .n24{
     cursor: pointer;
 	position: relative;
-	width: 1px;
+	width: 2px;
 	height: 220px;
 	background-color: white;
 	animation: posicao_n24 1s infinite;
@@ -665,11 +665,11 @@ body {
 
 @keyframes posicao_n24 {
 	0% {
-		top: -5063px;
+		top: -5064px;
 		left: 1175px;
 	}
 	100%{
-		top: -5063px;
+		top: -5064px;
 	  	left: 1175px;
 	}
 }
