@@ -32,3 +32,5 @@ Campeões da Copa (bandeiras e bolas): https://htmlpreview.github.io/?https://gi
 Campeões da Copa (jogador): https://htmlpreview.github.io/?https://github.com/PedroGarcia6/Visualizacao-da-Informacao/blob/main/copas14.html.
 
 Campeões da Copa (ordenação): https://htmlpreview.github.io/?https://github.com/PedroGarcia6/Visualizacao-da-Informacao/blob/main/copas15.html.
+
+Campeões da Copa (texto): https://htmlpreview.github.io/?https://github.com/PedroGarcia6/Visualizacao-da-Informacao/blob/main/copas16.html.
