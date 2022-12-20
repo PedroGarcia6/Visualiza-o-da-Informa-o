@@ -58,7 +58,7 @@ body {
 } */
 
 .eixoy{
-	color: rgba(255,255,255,0.3);
+	color: rgba(255,255,255,0.5);
 	float: right;
 	font-size: 22px;
 	width: 10px;
@@ -1012,6 +1012,28 @@ body {
 	}
 }
 
+.arg3{
+    cursor: pointer;
+	position: absolute;
+	background-color: skyblue;
+	background-position-x: 100;
+	background-position-y: 100;
+	width: 40px;
+	height: 30px;
+	animation: posicao_arg3 1s infinite;
+}
+
+@keyframes posicao_arg3 {
+	0% {
+		left: 1155px;
+		top: 95px;
+	}
+	100%{
+	  	left: 1155px;
+		top: 95px;
+	}
+}
+
 /*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% URUGUAI %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 
 .uru1{
@@ -1566,6 +1588,28 @@ body {
 	}
 }
 
+.arg3_{
+    cursor: pointer;
+	position: absolute;
+	background-color: skyblue;
+	background-position-x: 100;
+	background-position-y: 100;
+	width: 40px;
+	height: 30px;
+	animation: posicao_arg3_ 1s infinite;
+}
+
+@keyframes posicao_arg3_ {
+	0% {
+		left: 1256px;
+		top: 96px;
+	}
+	100%{
+	  	left: 1256px;
+		top: 96px;
+	}
+}
+
 /*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% URUGUAI %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 
 .uruguai2 {
@@ -1729,14 +1773,14 @@ body {
 	width: 40px;
 	height: 30px;
 	animation: posicao_uru_sede1930 100s infinite;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 
 @keyframes posicao_uru_sede1930 {
 	0% {
 		left: 106px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	0.25% {
 		left: 106px;
@@ -1746,7 +1790,7 @@ body {
 	1.25% {
 		left: 106px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	100%{
 		left: 106px;
@@ -1763,7 +1807,7 @@ body {
 	width: 40px;
 	height: 30px;
 	animation: posicao_ita_sede1934 100s infinite;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 
 @keyframes posicao_ita_sede1934 {
@@ -1774,7 +1818,7 @@ body {
 	2.25% {
 		left: 156px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	2.75% {
 		left: 156px;
@@ -1784,7 +1828,7 @@ body {
 	3.25%{
 		left: 156px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	100%{
 		left: 156px;
@@ -1801,7 +1845,7 @@ body {
 	width: 40px;
 	height: 30px;
 	animation: posicao_fra_sede1938 100s infinite;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 
 @keyframes posicao_fra_sede1938 {
@@ -1812,7 +1856,7 @@ body {
 	4.25% {
 		left: 206px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	4.75% {
 		left: 206px;
@@ -1822,7 +1866,7 @@ body {
 	5.25% {
 		left: 206px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	100%{
 		left: 206px;
@@ -1839,7 +1883,7 @@ body {
 	width: 40px;
 	height: 0px;
 	animation: posicao_fra_sede1942 100s infinite;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 
 @keyframes posicao_fra_sede1942 {
@@ -1862,7 +1906,7 @@ body {
 	width: 40px;
 	height: 0px;
 	animation: posicao_sede1946 100s infinite;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 
 @keyframes posicao_sede1946 {
@@ -1885,7 +1929,7 @@ body {
 	width: 100px;
 	height: 0px;
 	animation: posicao_guerra 100s infinite;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 
 @keyframes posicao_guerra {
@@ -1908,7 +1952,7 @@ body {
 	width: 40px;
 	height: 30px;
 	animation: posicao_bra_sede1950 100s infinite;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 
 @keyframes posicao_bra_sede1950 {
@@ -1919,7 +1963,7 @@ body {
 	6.25% {
 		left: 356px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	6.75% {
 		left: 356px;
@@ -1929,7 +1973,7 @@ body {
 	7.25% {
 		left: 356px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	100%{
 		left: 356px;
@@ -1946,7 +1990,7 @@ body {
 	width: 40px;
 	height: 30px;
 	animation: posicao_sui_sede1954 100s infinite;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 
 @keyframes posicao_sui_sede1954 {
@@ -1957,7 +2001,7 @@ body {
 	7.25% {
 		left: 406px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	7.75% {
 		left: 406px;
@@ -1967,7 +2011,7 @@ body {
 	8.25% {
 		left: 406px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	100%{
 		left: 406px;
@@ -1984,7 +2028,7 @@ body {
 	width: 40px;
 	height: 30px;
 	animation: posicao_sue_sede1958 100s infinite;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 
 @keyframes posicao_sue_sede1958 {
@@ -1995,7 +2039,7 @@ body {
 	8.25% {
 		left: 456px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	8.75% {
 		left: 456px;
@@ -2005,7 +2049,7 @@ body {
 	9.25% {
 		left: 456px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	100%{
 		left: 456px;
@@ -2022,7 +2066,7 @@ body {
 	width: 40px;
 	height: 30px;
 	animation: posicao_chi_sede1962 100s infinite;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 
 @keyframes posicao_chi_sede1962 {
@@ -2033,7 +2077,7 @@ body {
 	10.25% {
 		left: 506px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	10.75% {
 		left: 506px;
@@ -2043,7 +2087,7 @@ body {
 	11.25% {
 		left: 506px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	100%{
 		left: 506px;
@@ -2060,7 +2104,7 @@ body {
 	width: 40px;
 	height: 30px;
 	animation: posicao_ing_sede1966 100s infinite;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 
 @keyframes posicao_ing_sede1966 {
@@ -2071,7 +2115,7 @@ body {
 	12.25% {
 		left: 556px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	12.75% {
 		left: 556px;
@@ -2081,7 +2125,7 @@ body {
 	13.25% {
 		left: 556px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	100%{
 		left: 556px;
@@ -2098,7 +2142,7 @@ body {
 	width: 40px;
 	height: 30px;
 	animation: posicao_mex_sede1970 100s infinite;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 
 @keyframes posicao_mex_sede1970 {
@@ -2109,7 +2153,7 @@ body {
 	14.25% {
 		left: 606px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	14.75% {
 		left: 606px;
@@ -2119,7 +2163,7 @@ body {
 	15.25% {
 		left: 606px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	100%{
 		left: 606px;
@@ -2136,7 +2180,7 @@ body {
 	width: 40px;
 	height: 30px;
 	animation: posicao_ale_sede1974 100s infinite;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 
 @keyframes posicao_ale_sede1974 {
@@ -2147,7 +2191,7 @@ body {
 	16.25% {
 		left: 656px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	16.75% {
 		left: 656px;
@@ -2157,7 +2201,7 @@ body {
 	17.25% {
 		left: 656px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	100%{
 		left: 656px;
@@ -2174,7 +2218,7 @@ body {
 	width: 40px;
 	height: 30px;
 	animation: posicao_arg_sede1978 100s infinite;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 
 @keyframes posicao_arg_sede1978 {
@@ -2185,7 +2229,7 @@ body {
 	17.25% {
 		left: 706px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	17.75% {
 		left: 706px;
@@ -2195,7 +2239,7 @@ body {
 	18.25% {
 		left: 706px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	100%{
 		left: 706px;
@@ -2212,7 +2256,7 @@ body {
 	width: 40px;
 	height: 30px;
 	animation: posicao_esp_sede1982 100s infinite;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 
 @keyframes posicao_esp_sede1982 {
@@ -2223,7 +2267,7 @@ body {
 	18.25% {
 		left: 756px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	18.75% {
 		left: 756px;
@@ -2233,7 +2277,7 @@ body {
 	19.25% {
 		left: 756px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	100%{
 		left: 756px;
@@ -2250,7 +2294,7 @@ body {
 	width: 40px;
 	height: 30px;
 	animation: posicao_mex_sede1986 100s infinite;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 
 @keyframes posicao_mex_sede1986 {
@@ -2261,7 +2305,7 @@ body {
 	19.25% {
 		left: 806px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	19.75% {
 		left: 806px;
@@ -2271,7 +2315,7 @@ body {
 	20.25% {
 		left: 806px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	100%{
 		left: 806px;
@@ -2288,7 +2332,7 @@ body {
 	width: 40px;
 	height: 30px;
 	animation: posicao_ita_sede1990 100s infinite;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 
 @keyframes posicao_ita_sede1990 {
@@ -2299,7 +2343,7 @@ body {
 	21.25% {
 		left: 856px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	21.75% {
 		left: 856px;
@@ -2309,7 +2353,7 @@ body {
 	22.25% {
 		left: 856px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	100%{
 		left: 856px;
@@ -2326,7 +2370,7 @@ body {
 	width: 40px;
 	height: 30px;
 	animation: posicao_eua_sede1994 100s infinite;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 
 @keyframes posicao_eua_sede1994 {
@@ -2337,7 +2381,7 @@ body {
 	23.25% {
 		left: 906px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	23.75% {
 		left: 906px;
@@ -2347,7 +2391,7 @@ body {
 	24.25% {
 		left: 906px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	100%{
 		left: 906px;
@@ -2364,7 +2408,7 @@ body {
 	width: 40px;
 	height: 30px;
 	animation: posicao_fra_sede1998 100s infinite;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 
 @keyframes posicao_fra_sede1998 {
@@ -2375,7 +2419,7 @@ body {
 	24.25% {
 		left: 956px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	24.75% {
 		left: 956px;
@@ -2385,7 +2429,7 @@ body {
 	25.25% {
 		left: 956px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	100%{
 		left: 956px;
@@ -2402,7 +2446,7 @@ body {
 	width: 40px;
 	height: 30px;
 	animation: posicao_cor_sede2002 100s infinite;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 
 @keyframes posicao_cor_sede2002 {
@@ -2413,7 +2457,7 @@ body {
 	26.25% {
 		left: 1006px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	26.75% {
 		left: 1006px;
@@ -2423,7 +2467,7 @@ body {
 	27.25% {
 		left: 1006px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	100%{
 		left: 1006px;
@@ -2440,7 +2484,7 @@ body {
 	width: 40px;
 	height: 30px;
 	animation: posicao_jap_sede2002 100s infinite;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 
 @keyframes posicao_jap_sede2002 {
@@ -2451,7 +2495,7 @@ body {
 	26.25% {
 		left: 1006px;
 		top: 266px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	26.75% {
 		left: 1006px;
@@ -2461,7 +2505,7 @@ body {
 	27.25% {
 		left: 1006px;
 		top: 266px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	100%{
 		left: 1006px;
@@ -2478,7 +2522,7 @@ body {
 	width: 40px;
 	height: 30px;
 	animation: posicao_ale_sede2006 100s infinite;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 
 @keyframes posicao_ale_sede2006 {
@@ -2489,7 +2533,7 @@ body {
 	27.25% {
 		left: 1056px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	27.75% {
 		left: 1056px;
@@ -2499,7 +2543,7 @@ body {
 	28.25% {
 		left: 1056px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	100%{
 		left: 1056px;
@@ -2516,7 +2560,7 @@ body {
 	width: 40px;
 	height: 30px;
 	animation: posicao_afr_sede2010 100s infinite;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 
 @keyframes posicao_afr_sede2010 {
@@ -2527,7 +2571,7 @@ body {
 	28.25% {
 		left: 1106px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	28.75% {
 		left: 1106px;
@@ -2537,7 +2581,7 @@ body {
 	29.25% {
 		left: 1106px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	100%{
 		left: 1106px;
@@ -2554,7 +2598,7 @@ body {
 	width: 40px;
 	height: 30px;
 	animation: posicao_bra_sede2014 100s infinite;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 
 @keyframes posicao_bra_sede2014 {
@@ -2565,7 +2609,7 @@ body {
 	29.25% {
 		left: 1156px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	29.75% {
 		left: 1156px;
@@ -2575,7 +2619,7 @@ body {
 	30.25% {
 		left: 1156px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	100%{
 		left: 1156px;
@@ -2592,7 +2636,7 @@ body {
 	width: 40px;
 	height: 30px;
 	animation: posicao_rus_sede2018 100s infinite;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 
 @keyframes posicao_rus_sede2018 {
@@ -2603,7 +2647,7 @@ body {
 	30.25% {
 		left: 1206px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	30.75% {
 		left: 1206px;
@@ -2613,7 +2657,7 @@ body {
 	31.25% {
 		left: 1206px;
 		top: 229px;
-		opacity: 0.3;
+		opacity: 0.5;
 	}
 	100%{
 		left: 1206px;
@@ -2630,7 +2674,7 @@ body {
 	width: 40px;
 	height: 30px;
 	animation: posicao_cat_sede2022 100s infinite;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 
 @keyframes posicao_cat_sede2022 {
@@ -2638,17 +2682,20 @@ body {
 		left: 1256px;
 		top: 229px;
 	}
-	0% {
+	32.25% {
 		left: 1256px;
 		top: 229px;
+		opacity: 0.5;
 	}
-	0% {
+	32.75% {
 		left: 1256px;
 		top: 229px;
+		opacity: 1;
 	}
-	0% {
+	33.25% {
 		left: 1256px;
 		top: 229px;
+		opacity: 0.5;
 	}
 	100%{
 		left: 1256px;
@@ -2751,7 +2798,7 @@ body {
 	width: 40px;
 	height: 30px;
 	animation: posicao_ale_bolas 100s infinite;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 
 @keyframes posicao_ale_bolas {
@@ -2806,7 +2853,7 @@ body {
 	width: 40px;
 	height: 30px;
 	animation: posicao_arg_bolas 100s infinite;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 
 @keyframes posicao_arg_bolas {
@@ -2854,9 +2901,18 @@ body {
 		left: 100px;
 		top: 390px;
 	}
-	100%{
+	33.25%{
 		left: 100px;
 		top: 390px;
+	}
+	34%{
+		left: 100px;
+		top: 320px;
+	}
+	100%{
+		opacity: 100%;
+		left: 100px;
+		top: 320px;
 	}
 }
 
@@ -2869,7 +2925,7 @@ body {
 	width: 40px;
 	height: 30px;
 	animation: posicao_bra_bolas 100s infinite;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 
 @keyframes posicao_bra_bolas {
@@ -2932,7 +2988,7 @@ body {
 	width: 40px;
 	height: 30px;
 	animation: posicao_esp_bolas 100s infinite;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 
 @keyframes posicao_esp_bolas {
@@ -2987,7 +3043,7 @@ body {
 	width: 40px;
 	height: 30px;
 	animation: posicao_fra_bolas 100s infinite;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 
 @keyframes posicao_fra_bolas {
@@ -3050,7 +3106,7 @@ body {
 	width: 40px;
 	height: 30px;
 	animation: posicao_ing_bolas 100s infinite;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 
 @keyframes posicao_ing_bolas {
@@ -3113,7 +3169,7 @@ body {
 	width: 40px;
 	height: 30px;
 	animation: posicao_ita_bolas 100s infinite;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 
 @keyframes posicao_ita_bolas {
@@ -3168,7 +3224,7 @@ body {
 	width: 40px;
 	height: 30px;
 	animation: posicao_uru_bolas 100s infinite;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 
 @keyframes posicao_uru_bolas {
@@ -3208,9 +3264,18 @@ body {
 		left: 100px;
 		top: 320px;
 	}
-	100%{
+	33.25%{
 		left: 100px;
 		top: 320px;
+	}
+	34%{
+		left: 100px;
+		top: 390px;
+	}
+	100%{
+		opacity: 100%;
+		left: 100px;
+		top: 390px;
 	}
 }
 
@@ -3272,10 +3337,18 @@ body {
 		left: 135px;
 		top: 320px;
 	}
+	33.25%{
+		left: 135px;
+		top: 320px;
+	}
+	34%{
+		left: 135px;
+		top: 390px;
+	}
 	100%{
 		opacity: 100%;
 		left: 135px;
-		top: 320px;
+		top: 390px;
 	}
 }
 
@@ -3421,10 +3494,18 @@ body {
 		left: 190px;
 		top: 320px;
 	}
+	33.25%{
+		left: 190px;
+		top: 320px;
+	}
+	34%{
+		left: 190px;
+		top: 390px;
+	}
 	100%{
 		opacity: 100%;
 		left: 190px;
-		top: 320px;
+		top: 390px;
 	}
 }
 
@@ -3742,10 +3823,18 @@ body {
 		left: 135px;
 		top: 390px;
 	}
+	33.25%{
+		left: 135px;
+		top: 390px;
+	}
+	34%{
+		left: 135px;
+		top: 320px;
+	}
 	100%{
 		opacity: 100%;
 		left: 135px;
-		top: 390px;
+		top: 320px;
 	}
 }
 
@@ -3812,10 +3901,18 @@ body {
 		left: 190px;
 		top: 390px;
 	}
+	33.25%{
+		left: 190px;
+		top: 390px;
+	}
+	34%{
+		left: 190px;
+		top: 320px;
+	}
 	100%{
 		opacity: 100%;
 		left: 190px;
-		top: 390px;
+		top: 320px;
 	}
 }
 
@@ -4108,11 +4205,50 @@ body {
 	background-position-y: 100;
 	width: 40px;
 	height: 30px;
-	animation: c2022 0.5s alternate infinite;
+	animation: c2022 100s infinite;
+	opacity: 0%;
+}
+
+@keyframes c2022{
+	32.25%{
+		opacity: 0%;
+		left: 245px;
+		top: 390px;
+	}
+	33%{
+		opacity: 100%;
+		left: 245px;
+		top: 390px;
+	}
+	33.25%{
+		left: 245px;
+		top: 390px;
+	}
+	34%{
+		left: 245px;
+		top: 320px;
+	}
+	100%{
+		opacity: 100%;
+		left: 245px;
+		top: 320px;
+	}
+}
+
+.bola {
+	scale: 30%;
+	cursor: pointer;
+	position: absolute;
+	background-color: rgba(255,255,255,0);
+	background-position-x: 100;
+	background-position-y: 100;
+	width: 40px;
+	height: 30px;
+	animation: bola 0.5s alternate infinite;
 	opacity: 100%;
 }
 
-@keyframes c2022 {
+@keyframes bola {
 	0%{
 		left: 750px;
 		top: 485px;
